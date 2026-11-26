@@ -22,15 +22,15 @@
       ],
       [
         "Kombos in 0,9 Sekunden",
-        "Entferne innerhalb von 0,9 Sekunden einen weiteren Block, damit deine Kombo weiterläuft."
+        "Entferne den nächsten Block innerhalb von 0,9 Sekunden, um die Kombo fortzusetzen. Tippst du auf einen blockierten Block, endet die Kombo."
       ],
       [
         "Drei Herzen, zwei Hinweise",
         "Tippst du einen blockierten Pfeil an, verlierst du ein Herz. Du kannst dasselbe Brett kostenlos erneut spielen."
       ]
     ],
-    "launch_title": "Zwei Rekorde warten",
-    "launch_body": "Spiele werbefrei auf Brettern von 5×5 bis 9×9. Bestenlisten für die höchste Stufe und die beste Tageskombo sind geplant. Für die Tageskombo zählen nur Runden ohne Hinweise."
+    "launch_title": "Pläne zum Start",
+    "launch_body": "Zum Start kannst du ohne Werbung auf Spielbrettern von 5×5 bis 9×9 spielen. Wir bereiten die Ranglisten „Bestes Level“ und „Beste Tageskombo“ vor. Für die beste Tageskombo zählen nur Versuche, die ohne Hinweis den Ergebnisbildschirm erreichen."
   },
   "play": {
     "description": "Beginne mit einem Block, dessen Weg in Pfeilrichtung bis zum Rand frei ist. Entferne alle Blöcke, um die nächste Stufe zu erreichen.",
@@ -41,11 +41,15 @@
     "sections": [
       [
         "Offizielle Website",
-        "Die Website speichert deine Sprachauswahl im Browser. Du kannst sie in den Browsereinstellungen löschen."
+        "Die Website speichert deine Sprachauswahl im Browser. Du kannst sie in den Browsereinstellungen löschen. GitHub Pages hostet diese Website und protokolliert und speichert die IP-Adressen der Besucher aus Sicherheitsgründen in Zugriffsprotokollen."
+      ],
+      [
+        "Auf deinem Gerät gespeicherte Daten",
+        "Auf deinem Gerät speichert die App das höchste Level, das du erreicht hast, Ergebnisse für die Ranglisten und den Freischalt- und Aktivierungsstatus des Mondlicht-Pakets."
       ],
       [
         "Cloud-Spielstände und Bestenlisten",
-        "Bei Nutzung der Cloud-Funktionen speichern die Plattformdienste Spielfortschritt und Bestenlistendaten. Unter iOS speichert iCloud den Fortschritt. Game Center verarbeitet Rekorde für die höchste Stufe und Tageskombos. Unter Android speichert Google Play Spiele den Fortschritt und Bestenlistendaten. Andere Spieler können deinen Profilnamen und deine Ergebnisse in Bestenlisten sehen. Gespeicherte Daten und deren Sichtbarkeit verwaltest du im Plattformkonto."
+        "Wenn die Plattformdienste verbunden sind, synchronisiert die App dein höchstes Level über iCloud unter iOS oder über den Spielstanddienst von Google Play Games unter Android. Die App sendet Ranglistenergebnisse separat an Game Center unter iOS oder Google Play Games unter Android. Andere Spieler können deinen Profilnamen auf der Plattform und deine Ergebnisse in den Ranglisten sehen."
       ],
       [
         "In-App-Käufe",

@@ -22,15 +22,15 @@
       ],
       [
         "Keep the combo going",
-        "Clear another block within 0.9 seconds of your last clear to extend your combo."
+        "Remove another block within 0.9 seconds to keep the combo going. A blocked tap breaks the combo."
       ],
       [
         "Three hearts, two hints",
         "Tap a blocked arrow and you lose a heart. You can retry the same board for free."
       ]
     ],
-    "launch_title": "Two scores to chase",
-    "launch_body": "Play boards from 5×5 to 9×9 without ads. Highest Stage and Daily Best Combo leaderboards are planned. Only rounds played without hints count toward Daily Best Combo."
+    "launch_title": "Launch plans",
+    "launch_body": "At launch, you’ll be able to play boards from 5×5 to 9×9 without ads. We’re preparing the Best Level and Daily Best Combo leaderboards. Daily Best Combo will count only attempts that reach the result screen without using hints."
   },
   "play": {
     "description": "Start with a block that has a clear path to the edge in the direction of its arrow. Remove every block to reach the next stage.",
@@ -41,11 +41,15 @@
     "sections": [
       [
         "On this website",
-        "The website stores your language preference in your browser. You can clear it in your browser settings."
+        "The website stores your language preference in your browser. You can clear it in your browser settings. GitHub Pages hosts this site and records and stores visitors’ IP addresses in access logs for security."
+      ],
+      [
+        "Data stored on your device",
+        "On your device, the app stores the highest level you’ve reached, scores for leaderboard submission, and whether the Moonlight Pack is unlocked and selected."
       ],
       [
         "Cloud saves and leaderboards",
-        "When cloud features are used, platform services store progress and leaderboard data. On iOS, iCloud stores progress and Game Center handles Highest Stage and Daily Best Combo records. On Android, Google Play Games stores progress and leaderboard data. Other players may see your platform profile name and scores on leaderboards. You can manage saved data and visibility through your platform account."
+        "When platform services are connected, the app syncs your highest level through iCloud on iOS or the Google Play Games Saved Games service on Android. The app submits leaderboard scores separately to Game Center on iOS or Google Play Games on Android. Other players may see your platform profile name and scores on leaderboards."
       ],
       [
         "In-app purchases",

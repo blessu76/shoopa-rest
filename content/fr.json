@@ -22,15 +22,15 @@
       ],
       [
         "Enchaînez en 0,9 seconde",
-        "Retirez un autre bloc dans les 0,9 seconde pour prolonger votre combo."
+        "Retirez un autre bloc dans les 0,9 seconde qui suivent pour poursuivre le combo. Toucher un bloc coincé interrompt le combo."
       ],
       [
         "Trois cœurs et deux indices",
         "Toucher un bloc coincé coûte un cœur. Vous pouvez rejouer le même plateau gratuitement."
       ]
     ],
-    "launch_title": "Deux records à battre",
-    "launch_body": "Jouez sans publicité sur des plateaux de 5×5 à 9×9. Les classements du meilleur niveau et du meilleur combo quotidien sont en préparation. Seules les parties sans indice comptent pour le combo quotidien."
+    "launch_title": "Prévisions de lancement",
+    "launch_body": "Au lancement, vous pourrez jouer sans publicité sur des plateaux de 5×5 à 9×9. Nous préparons les classements Meilleur niveau et Meilleur combo du jour. Seules les tentatives qui atteignent l’écran de résultats sans indice compteront pour le Meilleur combo du jour."
   },
   "play": {
     "description": "Commencez par un bloc dont le chemin est libre jusqu’au bord dans le sens de sa flèche. Retirez tous les blocs pour passer au niveau suivant.",
@@ -41,11 +41,15 @@
     "sections": [
       [
         "Site officiel",
-        "Le site enregistre votre langue dans votre navigateur. Vous pouvez effacer cette préférence dans les paramètres du navigateur."
+        "Le site enregistre votre langue dans votre navigateur. Vous pouvez effacer cette préférence dans les paramètres du navigateur. GitHub Pages héberge ce site. Pour des raisons de sécurité, ce service enregistre et conserve les adresses IP des visiteurs dans ses journaux d’accès."
+      ],
+      [
+        "Données enregistrées sur votre appareil",
+        "L’application enregistre sur votre appareil le niveau le plus élevé atteint, les scores à transmettre aux classements et l’état de déverrouillage et d’activation du pack Clair de lune."
       ],
       [
         "Sauvegardes et classements",
-        "Lorsque vous utilisez les fonctionnalités en ligne, les services de la plateforme conservent la progression et les données de classement. Sur iOS, iCloud sauvegarde la progression et Game Center gère les records de niveau et de combo quotidien. Sur Android, Google Play Jeux stocke la progression et les données de classement. D’autres joueurs peuvent voir votre nom de profil et vos scores dans les classements. Gérez les sauvegardes et leur visibilité depuis votre compte de plateforme."
+        "Lorsque les services de la plateforme sont connectés, l’application synchronise votre niveau le plus élevé via iCloud sur iOS ou le service de sauvegarde de parties de Google Play Games sur Android. Elle transmet séparément les scores des classements à Game Center sur iOS ou à Google Play Games sur Android. Les autres joueurs peuvent voir le nom de votre profil sur la plateforme et vos scores dans les classements."
       ],
       [
         "Achats intégrés",

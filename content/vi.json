@@ -22,15 +22,15 @@
       ],
       [
         "Nối chuỗi trong 0,9 giây",
-        "Gỡ thêm một khối trong vòng 0,9 giây để nối tiếp chuỗi."
+        "Gỡ khối tiếp theo trong vòng 0,9 giây để nối chuỗi. Chạm vào khối bị chắn sẽ làm đứt chuỗi."
       ],
       [
         "Ba trái tim, hai gợi ý",
         "Chạm vào khối bị chắn sẽ mất một trái tim. Bạn có thể chơi lại bàn đó miễn phí."
       ]
     ],
-    "launch_title": "Hai kỷ lục để chinh phục",
-    "launch_body": "Chơi không quảng cáo trên bàn từ 5×5 đến 9×9. Bảng xếp hạng màn cao nhất và chuỗi tốt nhất trong ngày đang được chuẩn bị. Chỉ ván không dùng gợi ý mới được tính cho chuỗi trong ngày."
+    "launch_title": "Kế hoạch ra mắt",
+    "launch_body": "Khi trò chơi ra mắt, bạn có thể chơi trên các bàn từ 5×5 đến 9×9 mà không có quảng cáo. Chúng tôi đang chuẩn bị bảng xếp hạng Cấp độ cao nhất và Chuỗi tốt nhất trong ngày. Chuỗi tốt nhất trong ngày chỉ tính các lượt chơi đến màn hình kết quả mà không dùng gợi ý."
   },
   "play": {
     "description": "Bắt đầu bằng khối có đường thông đến mép bàn theo hướng mũi tên. Gỡ hết các khối để sang màn tiếp theo.",
@@ -41,11 +41,15 @@
     "sections": [
       [
         "Trang web chính thức",
-        "Trang web lưu tùy chọn ngôn ngữ trong trình duyệt. Bạn có thể xóa tùy chọn này trong phần cài đặt trình duyệt."
+        "Trang web lưu tùy chọn ngôn ngữ trong trình duyệt. Bạn có thể xóa tùy chọn này trong phần cài đặt trình duyệt. GitHub Pages lưu trữ trang web này, đồng thời ghi và lưu địa chỉ IP của khách truy cập trong nhật ký truy cập vì mục đích bảo mật."
+      ],
+      [
+        "Dữ liệu lưu trên thiết bị",
+        "Ứng dụng lưu trên thiết bị cấp độ cao nhất bạn đã đạt được, điểm để gửi lên bảng xếp hạng và trạng thái mở khóa, bật hoặc tắt Gói Ánh Trăng."
       ],
       [
         "Lưu trên đám mây và bảng xếp hạng",
-        "Khi dùng tính năng đám mây, dịch vụ nền tảng lưu tiến độ và dữ liệu bảng xếp hạng. Trên iOS, iCloud lưu tiến độ, còn Game Center xử lý kỷ lục màn cao nhất và chuỗi trong ngày. Trên Android, Google Play Games lưu tiến độ và dữ liệu bảng xếp hạng. Người chơi khác có thể thấy tên hồ sơ và thành tích của bạn trên bảng xếp hạng. Bạn có thể quản lý dữ liệu đã lưu và chế độ hiển thị qua tài khoản nền tảng."
+        "Khi dịch vụ của nền tảng được kết nối, ứng dụng đồng bộ cấp độ cao nhất qua iCloud trên iOS hoặc dịch vụ lưu trò chơi của Google Play Games trên Android. Ứng dụng gửi riêng điểm xếp hạng đến Game Center trên iOS hoặc Google Play Games trên Android. Người chơi khác có thể thấy tên hồ sơ trên nền tảng và điểm của bạn trên bảng xếp hạng."
       ],
       [
         "Mua hàng trong ứng dụng",

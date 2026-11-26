@@ -22,15 +22,15 @@
       ],
       [
         "Encadena jugadas en 0,9 s",
-        "Retira el siguiente bloque en 0,9 segundos para prolongar el combo."
+        "Retira otro bloque en los 0,9 segundos siguientes para mantener el combo. Si tocas un bloque atascado, el combo se corta."
       ],
       [
         "Tres corazones y dos pistas",
         "Pierdes un corazón si tocas una flecha bloqueada. Puedes volver a intentar el mismo tablero gratis."
       ]
     ],
-    "launch_title": "Dos récords por superar",
-    "launch_body": "Juega en tableros de 5×5 a 9×9 sin anuncios. Estamos preparando las clasificaciones de nivel más alto y mejor combo diario. Para el combo diario solo cuentan las partidas sin pistas."
+    "launch_title": "Planes de lanzamiento",
+    "launch_body": "Cuando se lance el juego, podrás jugar sin anuncios en tableros de 5×5 a 9×9. Estamos preparando las clasificaciones de Mejor nivel y Mejor combo diario. Para el Mejor combo diario solo contarán los intentos que lleguen a la pantalla de resultados sin usar pistas."
   },
   "play": {
     "description": "Empieza por un bloque cuyo camino hasta el borde esté libre en la dirección de su flecha. Retira todos los bloques para pasar al siguiente nivel.",
@@ -41,11 +41,15 @@
     "sections": [
       [
         "Sitio web",
-        "Guardamos tu preferencia de idioma en tu navegador. Puedes borrarla en los ajustes del navegador."
+        "Guardamos tu preferencia de idioma en tu navegador. Puedes borrarla en los ajustes del navegador. GitHub Pages aloja este sitio. Por motivos de seguridad, registra y guarda las direcciones IP de los visitantes en sus registros de acceso."
+      ],
+      [
+        "Datos guardados en el dispositivo",
+        "La aplicación guarda en el dispositivo el nivel más alto que has alcanzado, las puntuaciones para enviar a las clasificaciones y si el paquete Luz de Luna está desbloqueado y activado."
       ],
       [
         "Guardado en la nube y clasificaciones",
-        "Al usar las funciones en la nube, los servicios de la plataforma guardan el progreso y los datos de las clasificaciones. En iOS, iCloud guarda el progreso y Game Center gestiona los récords de nivel y combo diario. En Android, Google Play Juegos guarda el progreso y los datos de las clasificaciones. Otros jugadores pueden ver tu nombre de perfil y tus resultados en las clasificaciones. Puedes gestionar los datos guardados y su visibilidad desde tu cuenta de la plataforma."
+        "Cuando los servicios de la plataforma están conectados, la aplicación sincroniza tu nivel más alto con iCloud en iOS o con el servicio de partidas guardadas de Google Play Games en Android. La aplicación envía por separado las puntuaciones a Game Center en iOS o a Google Play Games en Android. Otros jugadores pueden ver en las clasificaciones el nombre de tu perfil de la plataforma y tus puntuaciones."
       ],
       [
         "Compras en la aplicación",

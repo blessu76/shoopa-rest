@@ -22,15 +22,15 @@
       ],
       [
         "Emende jogadas em 0,9 s",
-        "Remova outro bloco em até 0,9 segundo para manter o combo."
+        "Remova outro bloco em até 0,9 segundo para manter o combo. Tocar em um bloco preso interrompe o combo."
       ],
       [
         "Três corações e duas dicas",
         "Ao tocar em um bloco preso, você perde um coração. Tente o mesmo tabuleiro de novo de graça."
       ]
     ],
-    "launch_title": "Dois recordes para bater",
-    "launch_body": "Jogue em tabuleiros de 5×5 a 9×9 sem anúncios. Estamos preparando os rankings de maior fase e melhor combo diário. Só partidas sem dicas contam para o combo diário."
+    "launch_title": "Planos de lançamento",
+    "launch_body": "No lançamento, você poderá jogar sem anúncios em tabuleiros de 5×5 a 9×9. Estamos preparando os rankings de Melhor nível e Melhor combo diário. Para o Melhor combo diário, só vão contar as tentativas que chegarem à tela de resultado sem usar dicas."
   },
   "play": {
     "description": "Comece por um bloco com o caminho livre até a borda na direção da seta. Tire todos os blocos para avançar de fase.",
@@ -41,11 +41,15 @@
     "sections": [
       [
         "Site oficial",
-        "O site armazena sua preferência de idioma no navegador. Você pode apagá-la nas configurações do navegador."
+        "O site armazena sua preferência de idioma no navegador. Você pode apagá-la nas configurações do navegador. O GitHub Pages hospeda este site e registra e armazena os endereços IP dos visitantes em registros de acesso por motivos de segurança."
+      ],
+      [
+        "Dados armazenados no dispositivo",
+        "O app guarda no dispositivo o nível mais alto que você alcançou, as pontuações a enviar para os rankings e se o Pacote Luar está desbloqueado e ativado."
       ],
       [
         "Progresso na nuvem e rankings",
-        "Ao usar recursos na nuvem, os serviços da plataforma guardam o progresso e os dados dos rankings. No iOS, o iCloud guarda o progresso, e o Game Center gerencia os recordes de fase e de combo diário. No Android, o Google Play Games armazena o progresso e os dados dos rankings. Outros jogadores podem ver seu nome de perfil e seus resultados nos rankings. Gerencie os dados salvos e a visibilidade na conta da plataforma."
+        "Quando os serviços da plataforma estão conectados, o app sincroniza seu nível mais alto pelo iCloud no iOS ou pelo serviço de jogos salvos do Google Play Games no Android. O app envia as pontuações dos rankings separadamente ao Game Center no iOS ou ao Google Play Games no Android. Outros jogadores podem ver o nome do seu perfil na plataforma e suas pontuações nos rankings."
       ],
       [
         "Compras no aplicativo",

@@ -22,15 +22,15 @@
       ],
       [
         "Komboyu 0,9 saniyede sürdür",
-        "Komboya devam etmek için bir sonraki bloğu 0,9 saniye içinde çıkar."
+        "Komboyu sürdürmek için bir sonraki bloğu 0,9 saniye içinde çıkar. Yolu kapalı bir bloğa dokunmak komboyu bozar."
       ],
       [
         "Üç kalp, iki ipucu",
         "Yolu kapalı bir oka dokununca bir kalp kaybedersin. Aynı tahtayı ücretsiz yeniden deneyebilirsin."
       ]
     ],
-    "launch_title": "Peşinden gidilecek iki rekor",
-    "launch_body": "5×5 ile 9×9 arasındaki tahtalarda reklamsız oyna. En yüksek bölüm ve günlük en iyi kombo sıralamaları hazırlanıyor. Günlük kombo için yalnızca ipucusuz turlar sayılır."
+    "launch_title": "Çıkış planları",
+    "launch_body": "Oyun çıktığında 5×5 ile 9×9 arasındaki tahtalarda reklamsız oynayabileceksin. En İyi Seviye ve Günün En İyi Kombosu liderlik tablolarını hazırlıyoruz. Günün En İyi Kombosu için yalnızca ipucu kullanmadan sonuç ekranına ulaşan denemeler sayılacak."
   },
   "play": {
     "description": "Okun gösterdiği yönde kenara kadar yolu açık bir blokla başla. Tüm blokları çıkarıp sonraki bölüme geç.",
@@ -41,11 +41,15 @@
     "sections": [
       [
         "Resmî web sitesi",
-        "Site dil tercihini tarayıcına kaydeder. Bu tercihi tarayıcı ayarlarından silebilirsin."
+        "Site dil tercihini tarayıcına kaydeder. Bu tercihi tarayıcı ayarlarından silebilirsin. Bu siteyi barındıran GitHub Pages, güvenlik amacıyla ziyaretçilerin IP adreslerini erişim günlüklerine kaydeder ve saklar."
+      ],
+      [
+        "Cihazda saklanan veriler",
+        "Uygulama, ulaştığın en yüksek seviyeyi, liderlik tablolarına gönderilecek skorları ve Ay Işığı Paketi’nin kilidinin açılıp açılmadığını ve etkin olup olmadığını cihazında saklar."
       ],
       [
         "Bulut kayıtları ve sıralamalar",
-        "Bulut özelliklerini kullanırken ilerleme ve sıralama verileri platform hizmetlerinde saklanır. iOS’ta iCloud ilerlemeyi saklar, Game Center en yüksek bölüm ve günlük kombo kayıtlarını işler. Android’de Google Play Oyunlar ilerlemeyi ve sıralama verilerini saklar. Diğer oyuncular profil adını ve skorlarını sıralamalarda görebilir. Kayıtları ve görünürlük ayarlarını platform hesabından yönetebilirsin."
+        "Platform hizmetleri bağlı olduğunda uygulama en yüksek seviyeni iOS’ta iCloud veya Android’de Google Play Games’in kayıtlı oyun hizmeti üzerinden eşitler. Uygulama liderlik tablosu skorlarını ayrıca iOS’ta Game Center’a, Android’de Google Play Games’e gönderir. Diğer oyuncular liderlik tablolarında platform profil adını ve skorlarını görebilir."
       ],
       [
         "Uygulama içi satın alma",

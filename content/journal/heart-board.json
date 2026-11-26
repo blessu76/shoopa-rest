@@ -3,111 +3,135 @@
   "editions": {
     "ko": {
       "title": "화살표로 하트를 그리기까지",
-      "summary": "4A 플레이 시안에서 첫 5×5 판과 0.9초 콤보를 한 화면에 담았습니다.",
+      "summary": "4A 플레이 시안에서는 5×5 판에 화살표를 하트 모양으로 배치하고, 콤보를 이어갈 수 있는 0.9초를 막대로 표시했습니다.",
       "alt": "개발 시안 4A의 하트 모양 5×5 화살표 판과 하트 세 개",
       "body": [
-        "쏙쏙 빼기의 첫 판을 5×5로 잡았습니다. 처음 볼 때도 화살표의 방향과 빠져나갈 길을 읽을 수 있도록, 4A 플레이 시안에서는 색이 다른 네 방향의 블록을 하트 모양으로 모았습니다.",
-        "성공한 탭 뒤 0.9초 안에 다음 블록을 빼면 콤보가 이어집니다. 길이 막혀 하트를 모두 잃으면 같은 판에서 다시 시작할 수 있습니다. 이 두 규칙을 한 화면에 담으면서 남은 블록, 하트, 콤보를 한눈에 읽을 수 있도록 배치했습니다."
-      ]
+        "쏙쏙 빼기는 5×5 판에서 시작합니다. 4A 플레이 시안에서는 네 방향의 화살표 블록을 색으로 구분하고 하트 모양으로 배치했습니다.",
+        "블록을 뺀 뒤 0.9초 안에 다음 블록을 빼면 콤보가 이어집니다. 막힌 블록을 탭하면 콤보가 끊기고 하트가 하나 줄어듭니다. 하트를 모두 잃으면 같은 판을 다시 할 수 있습니다. 4A 시안에서는 남은 블록 수, 하트, 콤보를 한 화면에 배치했습니다."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "en": {
       "title": "How the arrows formed a heart",
-      "summary": "The 4A play mockup brings the 5×5 opening board and the 0.9-second combo into one screen.",
+      "summary": "The 4A play mockup shows a heart of arrows on a 5×5 grid, alongside the 0.9-second combo timer.",
       "alt": "Heart-shaped 5×5 arrow board and three hearts in the 4A development mockup",
       "body": [
-        "We set Shoopa’s opening board at 5×5. In the 4A play mockup, we arranged four colors of directional blocks into a heart so players could start reading the arrows and their paths at a glance.",
-        "Remove the next block within 0.9 seconds of a successful tap to keep a combo going. If blocked taps cost you all your hearts, you can start again on the same board. We placed the remaining block count, hearts and combo on one screen so they’re easy to read while playing."
-      ]
+        "Shoopa starts on a 5×5 board. For the 4A play mockup, we gave each arrow direction its own color and arranged the blocks into a heart.",
+        "Remove another block within 0.9 seconds to keep the combo going. A blocked tap breaks the combo and costs a heart. If you run out of hearts, you can retry the same board. In the 4A mockup, we showed the remaining block count, hearts, and combo on one screen."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "ja": {
       "title": "矢印がハートになるまで",
-      "summary": "プレイ案4Aでは、最初の5×5盤面と0.9秒のコンボをひとつの画面に収めました。",
+      "summary": "プレイ案4Aでは、5×5の盤面に矢印をハート形に並べ、コンボをつなぐための0.9秒をバーで示しました。",
       "alt": "開発案4Aのハート形の5×5矢印盤面と3つのハート",
       "body": [
-        "Shoopaの最初の盤面は5×5にしました。プレイ案4Aでは、最初に見たときから矢印の向きと出口までの道がわかるよう、方向ごとに色を変えたブロックをハート形に並べました。",
-        "ブロックを外してから0.9秒以内に次を外すとコンボが続きます。道がふさがれたブロックを押してハートがなくなっても、同じ盤面に戻って再挑戦できます。残りのブロック数、ハート、コンボをひとつの画面ですぐに確認できる配置にしました。"
-      ]
+        "Shoopaは5×5の盤面から始まります。プレイ案4Aでは、矢印ブロックを4方向ごとに色分けし、ハート形に並べました。",
+        "ブロックを外してから0.9秒以内に次を外すとコンボが続きます。道がふさがれたブロックをタップするとコンボが途切れ、ハートが1つ減ります。ハートがなくなったら同じ盤面に再挑戦できます。4Aでは、残りのブロック数、ハート、コンボを1つの画面にまとめました。"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "zh-Hant": {
       "title": "箭頭如何拼出一顆心",
-      "summary": "4A 玩法草圖把開局的 5×5 棋盤和 0.9 秒連擊放在同一個畫面。",
+      "summary": "4A 玩法草圖呈現 5×5 棋盤上的愛心形箭頭排列，旁邊是 0.9 秒連擊計時。",
       "alt": "開發草圖 4A 的愛心形 5×5 箭頭棋盤和三顆愛心",
       "body": [
-        "我們把 Shoopa 的第一個棋盤定為 5×5。為了讓玩家第一次看到就能辨認箭頭方向和出口，在 4A 玩法草圖中，我們把四種方向、四種顏色的方塊排成一顆心。",
-        "成功移開方塊後，在 0.9 秒內再移開下一塊就能延續連擊。如果一直點到受阻的方塊而用光愛心，可以重玩同一關。我們把剩餘方塊數、愛心和連擊放在同一個畫面，方便遊玩時查看。"
-      ]
+        "Shoopa 從 5×5 棋盤開始。製作 4A 玩法草圖時，我們用顏色區分四個箭頭方向，並把方塊排成愛心形。",
+        "移除方塊後，在 0.9 秒內再移除下一塊就能延續連擊。點到受阻的方塊會中斷連擊，並失去一顆愛心。愛心用光時，可以重玩同一個棋盤。在 4A 草圖中，我們把剩餘方塊數、愛心和連擊放在同一個畫面。"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "es": {
       "title": "Cómo las flechas dibujaron un corazón",
-      "summary": "El boceto 4A reúne el tablero inicial de 5×5 y el combo de 0,9 segundos en una sola pantalla.",
+      "summary": "El boceto de juego 4A muestra un corazón de flechas en una cuadrícula de 5×5 y el temporizador de combo de 0,9 segundos.",
       "alt": "Tablero de flechas de 5×5 en forma de corazón y tres corazones en el boceto 4A",
       "body": [
-        "El primer tablero de Shoopa es de 5×5. En el boceto 4A colocamos bloques de cuatro colores y direcciones en forma de corazón para que, desde el primer vistazo, se vieran las flechas y sus salidas.",
-        "Retira el siguiente bloque en los 0,9 segundos que siguen a un acierto para prolongar el combo. Si tocar bloques atascados agota tus corazones, puedes repetir el mismo tablero. Pusimos los bloques restantes, los corazones y el combo en una pantalla para que sea fácil consultarlos al jugar."
-      ]
+        "Shoopa empieza con un tablero de 5×5. Para el boceto 4A, dimos un color a cada dirección de las flechas y colocamos los bloques en forma de corazón.",
+        "Retira otro bloque en los 0,9 segundos siguientes para mantener el combo. Tocar un bloque atascado corta el combo y cuesta un corazón. Si te quedas sin corazones, puedes volver a intentar el mismo tablero. En el boceto 4A pusimos el número de bloques restantes, los corazones y el combo en una sola pantalla."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "pt-BR": {
       "title": "Como as setas formaram um coração",
-      "summary": "O protótipo de tela 4A reúne o tabuleiro inicial de 5×5 e o combo de 0,9 segundo.",
+      "summary": "O protótipo de tela 4A mostra um coração de setas em uma grade de 5×5 e uma barra que indica o tempo restante para manter o combo. O limite é de 0,9 segundo.",
       "alt": "Tabuleiro de setas 5×5 em forma de coração e três corações no protótipo 4A",
       "body": [
-        "Escolhemos um tabuleiro de 5×5 para começar Shoopa. No protótipo 4A, organizamos os blocos de quatro cores e direções em forma de coração para que fosse fácil identificar de cara as setas e seus caminhos.",
-        "Remova outro bloco em até 0,9 segundo depois de um acerto para manter o combo. Se perder todos os corações tocando em blocos presos, você pode recomeçar no mesmo tabuleiro. Deixamos a contagem de blocos, os corações e o combo na mesma tela para facilitar a leitura durante a partida."
-      ]
+        "Shoopa começa em um tabuleiro de 5×5. No protótipo 4A, demos uma cor a cada direção das setas e organizamos os blocos em forma de coração.",
+        "Remova outro bloco em até 0,9 segundo para manter o combo. Tocar em um bloco preso interrompe o combo e custa um coração. Se os corações acabarem, você pode tentar o mesmo tabuleiro de novo. No protótipo 4A, colocamos a contagem de blocos restantes, os corações e o combo na mesma tela."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "fr": {
       "title": "Comment les flèches ont dessiné un cœur",
-      "summary": "La maquette 4A réunit le plateau de départ de 5×5 et le combo de 0,9 seconde sur un même écran.",
+      "summary": "La maquette de jeu 4A montre un cœur de flèches sur une grille de 5×5 et une jauge qui indique le temps restant pour poursuivre le combo. Le délai est de 0,9 seconde.",
       "alt": "Plateau de flèches de 5×5 en forme de cœur et trois cœurs dans la maquette 4A",
       "body": [
-        "Nous avons choisi un plateau de 5×5 pour commencer Shoopa. Dans la maquette 4A, nous avons disposé quatre couleurs de blocs directionnels en forme de cœur pour que les flèches et leurs chemins se repèrent dès le premier regard.",
-        "Retirez le bloc suivant dans les 0,9 seconde après un coup réussi pour poursuivre le combo. Si des blocs coincés vous font perdre tous vos cœurs, vous pouvez rejouer le même plateau. Nous avons regroupé le nombre de blocs restants, les cœurs et le combo sur un même écran pour les lire facilement en jouant."
-      ]
+        "Shoopa commence sur un plateau de 5×5. Pour la maquette 4A, nous avons attribué une couleur à chaque direction de flèche et disposé les blocs en forme de cœur.",
+        "Après avoir retiré un bloc, vous avez 0,9 seconde pour retirer le suivant et poursuivre le combo. Toucher un bloc coincé interrompt le combo et coûte un cœur. Si vous n’avez plus de cœurs, vous pouvez rejouer le même plateau. Dans la maquette 4A, nous avons regroupé le nombre de blocs restants, les cœurs et le combo sur un même écran."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "de": {
       "title": "Wie die Pfeile ein Herz ergaben",
-      "summary": "Der Entwurf 4A zeigt das 5×5-Startbrett und die 0,9-Sekunden-Kombo auf einem Bildschirm.",
+      "summary": "Der Spielentwurf 4A zeigt ein Herz aus Pfeilen auf einem 5×5-Raster neben dem Kombo-Timer für 0,9 Sekunden.",
       "alt": "Herzförmiges 5×5-Pfeilbrett und drei Herzen im Entwurf 4A",
       "body": [
-        "Für das erste Brett in Shoopa haben wir 5×5 Felder gewählt. Im Spielentwurf 4A haben wir die Blöcke in vier Richtungen und Farben zu einem Herz angeordnet. So lassen sich die Pfeile und ihre Wege auf einen Blick erfassen.",
-        "Entferne spätestens 0,9 Sekunden nach einem erfolgreichen Zug den nächsten Block, um die Kombo fortzusetzen. Wenn du durch blockierte Züge alle Herzen verlierst, kannst du dasselbe Brett erneut spielen. Die Zahl der verbleibenden Blöcke, die Herzen und die Kombo stehen zum schnellen Ablesen auf demselben Bildschirm."
-      ]
+        "Shoopa beginnt auf einem 5×5-Brett. Im Entwurf 4A haben wir jeder Pfeilrichtung eine eigene Farbe gegeben und die Blöcke in Herzform angeordnet.",
+        "Entferne den nächsten Block innerhalb von 0,9 Sekunden, um die Kombo fortzusetzen. Tippst du auf einen blockierten Block, endet die Kombo und du verlierst ein Herz. Wenn du keine Herzen mehr hast, kannst du dasselbe Brett erneut spielen. Im Entwurf 4A stehen die Zahl der restlichen Blöcke, die Herzen und die Kombo auf einem Bildschirm."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "id": {
       "title": "Bagaimana panah membentuk hati",
-      "summary": "Rancangan 4A menampilkan papan pembuka 5×5 dan kombo 0,9 detik dalam satu layar.",
+      "summary": "Rancangan permainan 4A menampilkan susunan panah berbentuk hati pada kisi 5×5 bersama penghitung waktu kombo 0,9 detik.",
       "alt": "Papan panah 5×5 berbentuk hati dan tiga hati pada rancangan pengembangan 4A",
       "body": [
-        "Kami memilih papan 5×5 untuk tahap pertama Shoopa. Pada rancangan 4A, kami menyusun balok dengan empat warna dan arah menjadi bentuk hati agar pemain bisa melihat arah panah dan jalan keluarnya sejak pandangan pertama.",
-        "Keluarkan balok berikutnya dalam 0,9 detik setelah berhasil agar kombo berlanjut. Jika semua hati habis karena mengetuk balok yang terhalang, kamu bisa mengulang papan yang sama. Kami menempatkan jumlah balok tersisa, hati, dan kombo pada satu layar agar mudah dibaca saat bermain."
-      ]
+        "Shoopa dimulai dengan papan 5×5. Untuk rancangan 4A, kami memberi warna berbeda pada tiap arah panah dan menyusun balok menjadi bentuk hati.",
+        "Keluarkan balok berikutnya dalam 0,9 detik untuk melanjutkan kombo. Mengetuk balok yang terhalang memutus kombo dan mengurangi satu hati. Jika hati habis, kamu bisa mencoba papan yang sama lagi. Dalam rancangan 4A, kami menempatkan jumlah balok tersisa, hati, dan kombo pada satu layar."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "th": {
       "title": "เมื่อลูกศรเรียงกันเป็นรูปหัวใจ",
-      "summary": "แบบร่างหน้าจอ 4A รวมกระดานแรกขนาด 5×5 และคอมโบ 0.9 วินาทีไว้บนจอเดียว",
+      "summary": "แบบร่างการเล่น 4A แสดงลูกศรเรียงเป็นรูปหัวใจบนกระดาน 5×5 พร้อมตัวจับเวลาคอมโบ 0.9 วินาที",
       "alt": "กระดานลูกศร 5×5 รูปหัวใจและหัวใจสามดวงในแบบร่าง 4A",
       "body": [
-        "เราเริ่ม Shoopa ด้วยกระดานขนาด 5×5 ในแบบร่าง 4A เราเรียงบล็อกสี่สีที่ชี้คนละทิศเป็นรูปหัวใจ เพื่อให้เห็นทิศและทางออกของลูกศรได้ตั้งแต่แรกมอง",
-        "นำบล็อกชิ้นถัดไปออกใน 0.9 วินาทีหลังแตะสำเร็จเพื่อให้คอมโบต่อเนื่อง หากแตะบล็อกที่ถูกขวางจนหัวใจหมด ก็เริ่มกระดานเดิมใหม่ได้ เราวางจำนวนบล็อกที่เหลือ หัวใจ และคอมโบไว้ในจอเดียวกันเพื่อให้อ่านง่ายขณะเล่น"
-      ]
+        "Shoopa เริ่มด้วยกระดานขนาด 5×5 ในแบบร่างการเล่น 4A เราใช้สีแยกทิศของลูกศรทั้งสี่ทิศและเรียงบล็อกเป็นรูปหัวใจ",
+        "นำบล็อกถัดไปออกภายใน 0.9 วินาทีเพื่อให้คอมโบต่อเนื่อง การแตะบล็อกที่ถูกขวางจะทำให้คอมโบสิ้นสุดและเสียหัวใจหนึ่งดวง หากหัวใจหมด คุณเล่นกระดานเดิมใหม่ได้ ในแบบร่าง 4A เราวางจำนวนบล็อกที่เหลือ หัวใจ และคอมโบไว้บนจอเดียวกัน"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "vi": {
       "title": "Khi các mũi tên xếp thành trái tim",
-      "summary": "Bản thiết kế 4A đưa bàn mở đầu 5×5 và chuỗi 0,9 giây lên cùng một màn hình.",
+      "summary": "Bản phác thảo lối chơi 4A cho thấy các mũi tên xếp thành hình trái tim trên lưới 5×5, cùng thanh thời gian cho biết bạn còn bao lâu để nối chuỗi. Bạn có 0,9 giây để gỡ khối tiếp theo.",
       "alt": "Bàn mũi tên 5×5 hình trái tim và ba trái tim trong bản thiết kế 4A",
       "body": [
-        "Chúng tôi chọn bàn 5×5 cho màn đầu của Shoopa. Trong bản thiết kế 4A, chúng tôi xếp các khối có bốn màu và hướng thành hình trái tim để người chơi nhận ra ngay hướng mũi tên và lối ra.",
-        "Gỡ khối tiếp theo trong vòng 0,9 giây sau một lần chạm thành công để nối chuỗi. Nếu chạm vào khối bị chắn cho đến khi hết tim, bạn có thể chơi lại bàn cũ. Số khối còn lại, số tim và chuỗi được đặt trên cùng màn hình để dễ theo dõi trong lúc chơi."
-      ]
+        "Shoopa bắt đầu trên bàn 5×5. Trong bản phác thảo 4A, chúng tôi dùng màu riêng cho từng hướng mũi tên và xếp các khối thành hình trái tim.",
+        "Gỡ khối tiếp theo trong vòng 0,9 giây để nối chuỗi. Chạm vào khối bị chắn sẽ làm đứt chuỗi và mất một tim. Nếu hết tim, bạn có thể thử lại bàn đó. Trong bản phác thảo 4A, chúng tôi đặt số khối còn lại, số tim và chuỗi trên cùng một màn hình."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "tr": {
       "title": "Oklar nasıl bir kalp oluşturdu?",
-      "summary": "4A ekran taslağı, 5×5 başlangıç tahtasını ve 0,9 saniyelik komboyu aynı ekranda gösteriyor.",
+      "summary": "4A oyun taslağında, 5×5 bir ızgarada kalp biçiminde dizilmiş oklar ve komboyu sürdürmek için kalan süreyi gösteren bir çubuk var. Bu süre 0,9 saniye.",
       "alt": "4A geliştirme taslağındaki kalp biçimli 5×5 ok tahtası ve üç kalp",
       "body": [
-        "Shoopa’nın ilk tahtasını 5×5 olarak belirledik. 4A oyun taslağında, oyuncuların okları ve çıkış yollarını ilk bakışta okuyabilmesi için dört yön ve renkteki blokları kalp şeklinde dizdik.",
-        "Komboyu sürdürmek için başarılı bir dokunuştan sonra 0,9 saniye içinde bir blok daha çıkar. Yolu kapalı bloklara dokunup tüm kalplerini kaybedersen aynı tahtayı tekrar oynayabilirsin. Kalan blok sayısını, kalpleri ve komboyu oyun sırasında kolayca okumak için aynı ekrana yerleştirdik."
-      ]
+        "Shoopa 5×5 bir tahtada başlıyor. 4A oyun taslağında her ok yönüne ayrı bir renk verdik ve blokları kalp biçiminde dizdik.",
+        "Komboyu sürdürmek için bir sonraki bloğu 0,9 saniye içinde çıkar. Yolu kapalı bir bloğa dokunmak komboyu bozar ve bir kalbe mal olur. Kalplerin biterse aynı tahtayı yeniden deneyebilirsin. 4A taslağında kalan blok sayısını, kalpleri ve komboyu tek ekrana yerleştirdik."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     }
   }
 }

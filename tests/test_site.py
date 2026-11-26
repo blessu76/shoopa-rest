@@ -64,12 +64,13 @@ class SiteTest(unittest.TestCase):
                     if section in ("", "play"):
                         self.assertEqual(content.decode().count(copy["coming"]), 2 if section == "" else 3)
 
-    def test_privacy_describes_platform_services_and_billing(self):
+    def test_privacy_describes_platform_services_billing_and_hosting(self):
         for lang in languages.SUPPORTED:
             with self.subTest(lang=lang):
                 content = self.files[site.route(lang, "privacy")[1:] + "index.html"].decode()
-                for provider in ("iCloud", "Game Center", "Google Play", "App Store"):
+                for provider in ("iCloud", "Game Center", "Google Play", "App Store", "GitHub Pages"):
                     self.assertIn(provider, content)
+                self.assertIn("IP", content)
                 self.assertIn("mailto:" + site.CONTACT, content)
 
     def test_embedded_assets_are_versioned(self):

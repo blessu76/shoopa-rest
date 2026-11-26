@@ -2,7 +2,7 @@
 """ipe_web_kit pin for this PUBLIC repo: the private kit source is never committed, only vendor/ipe_web_kit.lock (tag + commit + manifest hash).
 
   python3 scripts/kit_lock.py check                   vendor/ipe_web_kit/ is present, untouched and is exactly the locked kit (exit 1 if not)
-  python3 scripts/kit_lock.py sync --kit <kit clone>  copy the locked tag from a local kit clone (CI: the checked-out private repo) into vendor/
+  python3 scripts/kit_lock.py sync --kit <kit clone>  copy the locked tag from a local kit clone into vendor/
   python3 scripts/kit_lock.py sync --kit <clone> --update --tag vX.Y.Z   also rewrite the lock to that tag (then run scripts/check.sh and commit the lock)
 """
 import argparse
@@ -17,7 +17,7 @@ LOCK = "vendor/ipe_web_kit.lock"
 PKG = "vendor/ipe_web_kit"
 HELP = ("ipe_web_kit is missing or does not match %s. The kit is private and not in this repo -- with a local kit clone run:\n"
         "    python3 scripts/kit_lock.py sync --kit ~/Developer/ipe_web_kit\n"
-        "(CI does this with the IPE_WEB_KIT_DEPLOY_KEY secret; see README.)" % LOCK)
+        "(Run the local build and checks before deploying public/; see README.)" % LOCK)
 
 
 def read_lock(root):

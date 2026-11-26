@@ -151,7 +151,8 @@ def policy(copy, page):
     if page == "privacy":
         sections += (
             '<p class="provider-links"><a href="https://www.apple.com/legal/privacy/">Apple</a>'
-            '<a href="https://policies.google.com/privacy">Google</a></p>'
+            '<a href="https://policies.google.com/privacy">Google</a>'
+            '<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages</a></p>'
         )
     sections += (
         f'<section><h2>{esc(copy["contact"])}</h2>'

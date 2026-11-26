@@ -22,15 +22,15 @@
       ],
       [
         "Sambung kombo dalam 0,9 detik",
-        "Keluarkan balok berikutnya dalam 0,9 detik untuk melanjutkan kombo."
+        "Keluarkan balok berikutnya dalam 0,9 detik untuk melanjutkan kombo. Mengetuk balok yang terhalang akan memutus kombo."
       ],
       [
         "Tiga hati, dua petunjuk",
         "Mengetuk balok yang terhalang mengurangi satu hati. Kamu bisa mengulang papan yang sama secara gratis."
       ]
     ],
-    "launch_title": "Dua rekor untuk dikejar",
-    "launch_body": "Mainkan papan 5×5 hingga 9×9 tanpa iklan. Papan peringkat level tertinggi dan kombo harian terbaik sedang disiapkan. Hanya ronde tanpa petunjuk yang dihitung untuk kombo harian."
+    "launch_title": "Rencana peluncuran",
+    "launch_body": "Saat dirilis, kamu bisa bermain tanpa iklan di papan berukuran 5×5 hingga 9×9. Kami sedang menyiapkan papan peringkat Level Tertinggi dan Kombo Harian Terbaik. Kombo Harian Terbaik hanya akan menghitung percobaan yang mencapai layar hasil tanpa menggunakan petunjuk."
   },
   "play": {
     "description": "Mulailah dengan balok yang jalurnya terbuka hingga tepi papan sesuai arah panah. Keluarkan semua balok untuk mencapai level berikutnya.",
@@ -41,11 +41,15 @@
     "sections": [
       [
         "Situs resmi",
-        "Situs menyimpan pilihan bahasa di browser. Kamu bisa menghapusnya melalui pengaturan browser."
+        "Situs menyimpan pilihan bahasa di browser. Kamu bisa menghapusnya melalui pengaturan browser. GitHub Pages menghosting situs ini serta mencatat dan menyimpan alamat IP pengunjung dalam log akses untuk keamanan."
+      ],
+      [
+        "Data yang disimpan di perangkat",
+        "Aplikasi menyimpan level tertinggi yang kamu capai, skor untuk dikirim ke papan peringkat, serta status buka kunci dan penggunaan Paket Cahaya Bulan di perangkat."
       ],
       [
         "Simpanan cloud dan papan peringkat",
-        "Saat fitur cloud digunakan, layanan platform menyimpan progres dan data papan peringkat. Di iOS, iCloud menyimpan progres, sedangkan Game Center menangani rekor level dan kombo harian. Di Android, Google Play Game menyimpan progres dan data papan peringkat. Pemain lain mungkin dapat melihat nama profil dan skor kamu. Kelola data tersimpan dan visibilitas melalui akun platform."
+        "Saat layanan platform terhubung, aplikasi menyinkronkan level tertinggimu melalui iCloud di iOS atau layanan penyimpanan progres game Google Play Games di Android. Aplikasi mengirim skor papan peringkat secara terpisah ke Game Center di iOS atau Google Play Games di Android. Pemain lain mungkin dapat melihat nama profil platform dan skormu di papan peringkat."
       ],
       [
         "Pembelian dalam aplikasi",
