@@ -6,84 +6,108 @@
       "summary": "색으로 훑고, 화살표 끝으로 방향을 확인해요.",
       "body": [
         "같은 방향의 블록을 빠르게 찾을 때는 색이 도움이 돼요. 탭할 때는 화살표 끝이 어느 쪽을 향하는지 보고 길을 따라가 보세요. 어느 쪽 판 끝까지 봐야 할지 바로 알 수 있어요."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "en": {
       "title": "Read the arrowhead",
       "summary": "Scan by color and confirm the direction at the tip.",
       "body": [
         "Color can help you spot blocks pointing the same way. Before you tap, check where the arrowhead points and trace that route. The tip tells you which edge to look toward."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "de": {
       "title": "Lies die Pfeilspitze",
       "summary": "Such nach Farben und prüf die Richtung an der Spitze.",
       "body": [
         "An der Farbe erkennst du schnell Blöcke mit gleicher Richtung. Schau vor dem Tippen auf die Pfeilspitze und folge ihrem Weg. Sie zeigt dir, an welchem Rand du nach dem Ausgang suchen solltest."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "es": {
       "title": "Fíjate en la punta de la flecha",
       "summary": "Usa el color para orientarte y la punta para confirmar la dirección.",
       "body": [
         "El color ayuda a encontrar bloques que apuntan hacia el mismo lado. Antes de tocar, mira hacia dónde va la punta y sigue ese recorrido. Así sabes en qué borde buscar la salida."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "fr": {
       "title": "Lis la pointe de la flèche",
       "summary": "Repère les couleurs et vérifie la direction à la pointe.",
       "body": [
         "La couleur aide à trouver les blocs qui pointent dans le même sens. Avant de toucher le bloc, regarde la pointe et suis son trajet. Elle t’indique vers quel bord regarder."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "id": {
       "title": "Baca ujung panahnya",
       "summary": "Amati warnanya, lalu pastikan arahnya dari ujung panah.",
       "body": [
         "Warna membantu menemukan blok yang mengarah ke sisi yang sama. Sebelum mengetuk, lihat arah ujung panah dan ikuti jalurnya. Ujung itu menunjukkan tepi mana yang perlu kamu periksa."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "ja": {
       "title": "矢印の先を読む",
       "summary": "色で探して、矢印の先で向きを確かめます。",
       "body": [
         "同じ向きのブロックを探すときは、色が手がかりになります。タップの前には矢印の先を見て、その道をたどってみましょう。盤面のどの端まで見ればよいかが分かります。"
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "pt-BR": {
       "title": "Leia a ponta da seta",
       "summary": "Use a cor para localizar e a ponta para confirmar a direção.",
       "body": [
         "A cor ajuda a achar os blocos que apontam para o mesmo lado. Antes de tocar, veja para onde a ponta está apontando e siga o trajeto. Ela indica para qual borda olhar."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "th": {
       "title": "ดูปลายลูกศร",
       "summary": "ใช้สีช่วยหา แล้วดูปลายลูกศรเพื่อยืนยันทิศทาง",
       "body": [
         "สีช่วยให้เห็นบล็อกที่ชี้ไปทางเดียวกันได้ไว ก่อนแตะ ให้ดูว่าปลายลูกศรชี้ไปทางไหนแล้วไล่สายตาตามไป ปลายลูกศรจะบอกว่าต้องมองไปถึงขอบด้านไหน"
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "tr": {
       "title": "Okun ucunu oku",
       "summary": "Renklere göz at, yönü okun ucundan doğrula.",
       "body": [
         "Renk, aynı yöne bakan blokları hızlı bulmana yardım eder. Dokunmadan önce okun ucunun nereye baktığını gör ve yolu takip et. Hangi kenara bakacağını okun ucu gösterir."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "vi": {
       "title": "Đọc đầu mũi tên",
       "summary": "Dò theo màu rồi nhìn đầu mũi tên để xác nhận hướng.",
       "body": [
         "Màu sắc giúp tìm nhanh những khối chỉ cùng hướng. Trước khi chạm, hãy xem đầu mũi tên chỉ về đâu rồi dò đường đó. Đầu mũi tên cho biết bạn cần nhìn tới mép nào."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "zh-Hant": {
       "title": "看清楚箭頭尖端",
       "summary": "用顏色找方塊，再用箭頭尖端確認方向。",
       "body": [
         "顏色能幫你快速找到同方向的方塊。點擊前，看看箭頭尖端指向哪裡，再順著那條路看下去。尖端會告訴你該往哪一側的邊緣找出口。"
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     }
   }
 }

@@ -6,84 +6,108 @@
       "summary": "판을 설계하는 한 가지 방법은 풀이 순서를 거꾸로 쓰는 거예요.",
       "body": [
         "빈 종이에 마지막까지 남을 화살표를 하나 그려 보세요. 그 길을 막는 블록을 더하되, 새 블록은 먼저 빠질 방향으로 놓아 보세요. 두 블록을 지우는 순서가 자연스럽게 생겨요."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "en": {
       "title": "Design from the last move",
       "summary": "Try sketching a solution in reverse when you draw a board.",
       "body": [
         "On blank paper, draw the arrow you want to leave until the end. Add a block in its way and point the new block toward a clear exit. You’ve just made a two-move puzzle with a definite order."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "de": {
       "title": "Vom letzten Zug aus entwerfen",
       "summary": "Beim Zeichnen eines Feldes kannst du die Lösung rückwärts aufbauen.",
       "body": [
         "Zeichne auf ein leeres Blatt den Pfeil, der bis zuletzt bleiben soll. Setz einen Block in seinen Weg, dessen eigener Pfeil einen freien Ausgang hat. Schon ergeben sich zwei Züge in einer festen Reihenfolge."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "es": {
       "title": "Diseña desde la última jugada",
       "summary": "Al dibujar un tablero, prueba a construir la solución al revés.",
       "body": [
         "Dibuja en un papel la flecha que quieres dejar para el final. Pon un bloque en su camino y oriéntalo hacia una salida libre. Ya tienes un rompecabezas de dos jugadas con un orden claro."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "fr": {
       "title": "Dessine en partant du dernier coup",
       "summary": "Pour créer un plateau, essaie de tracer la solution à rebours.",
       "body": [
         "Sur une feuille, dessine la flèche qui restera jusqu’à la fin. Ajoute un bloc sur son trajet et fais-le pointer vers une sortie libre. Tu as un petit casse-tête en deux coups, dans un ordre précis."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "id": {
       "title": "Rancang dari langkah terakhir",
       "summary": "Saat menggambar papan, coba susun urutan penyelesaiannya dari belakang.",
       "body": [
         "Pada kertas kosong, gambar panah yang ingin kamu sisakan sampai akhir. Tambahkan blok di jalurnya dan arahkan blok baru itu ke jalan keluar yang kosong. Kini kamu punya teka-teki dua langkah dengan urutan yang jelas."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "ja": {
       "title": "最後の一手から描く",
       "summary": "盤面を描くときは、解く順番を逆から考えてみましょう。",
       "body": [
         "白い紙に、最後まで残す矢印を一つ描きます。その道にブロックを足し、足したほうは先に抜けられる方向に向けます。これで外す順番が決まった二手のパズルができます。"
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "pt-BR": {
       "title": "Desenhe a partir do último movimento",
       "summary": "Ao criar um tabuleiro, tente montar a solução de trás para frente.",
       "body": [
         "Em uma folha em branco, desenhe a seta que deve sobrar até o fim. Ponha um bloco no caminho dela e aponte esse novo bloco para uma saída livre. Está pronto um quebra-cabeça de duas jogadas com uma ordem definida."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "th": {
       "title": "ออกแบบจากตาสุดท้าย",
       "summary": "ตอนร่างกระดาน ลองวางลำดับวิธีแก้ย้อนกลับดู",
       "body": [
         "วาดลูกศรที่อยากให้เหลือเป็นอันสุดท้ายลงบนกระดาษเปล่า แล้วเติมบล็อกขวางทางไว้หนึ่งก้อนโดยให้บล็อกใหม่ชี้ไปทางที่ออกได้ เท่านี้ก็ได้ปริศนาสองตาที่มีลำดับชัดเจน"
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "tr": {
       "title": "Son hamleden başlayarak tasarla",
       "summary": "Tahta çizerken çözüm sırasını tersten kurmayı dene.",
       "body": [
         "Boş bir kâğıda en sona kalmasını istediğin oku çiz. Yoluna bir blok koy ve yeni bloğu açık bir çıkışa yönelt. Böylece sırası belli iki hamlelik bir bulmaca çıkar."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "vi": {
       "title": "Vẽ từ nước đi cuối",
       "summary": "Khi phác một bàn chơi, hãy thử xây lời giải theo thứ tự ngược.",
       "body": [
         "Trên giấy trắng, vẽ mũi tên bạn muốn giữ lại đến cuối. Đặt một khối chắn đường nó và hướng khối mới về một lối ra trống. Vậy là bạn có một câu đố hai bước với thứ tự rõ ràng."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "zh-Hant": {
       "title": "從最後一步開始畫",
       "summary": "自己設計棋盤時，可以倒著安排解題順序。",
       "body": [
         "在白紙上畫下想留到最後的箭頭。在它的路上加一個方塊，讓新方塊朝向暢通的出口。這樣就有一道順序明確的兩步謎題了。"
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     }
   }
 }

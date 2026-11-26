@@ -5,85 +5,109 @@
       "title": "저널을 다른 언어로 읽기",
       "summary": "Shoopa 웹사이트에는 12개 언어판이 있어요.",
       "body": [
-        "저널을 읽다가 상단의 언어 메뉴에서 다른 언어를 골라 보세요. 같은 글의 해당 언어판이 열려요. 퍼즐 규칙을 친구와 나누고 싶을 때 그 친구가 읽는 언어로 바꿔 링크를 보낼 수 있어요."
-      ]
+        "저널을 읽다가 상단의 언어 메뉴에서 다른 언어를 골라 보세요. 같은 글의 해당 언어판이 열려요."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "en": {
       "title": "Read the journal in your language",
       "summary": "The Shoopa website is available in 12 languages.",
       "body": [
-        "While reading a post, pick another language from the menu at the top. It opens the same post in that language. To share a puzzle tip with a friend, switch to the language they read and send them that link."
-      ]
+        "While reading a post, pick another language from the menu at the top. It opens the same post in that language."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "de": {
       "title": "Das Journal in deiner Sprache",
       "summary": "Die Shoopa-Website gibt es in zwölf Sprachen.",
       "body": [
-        "Wähl beim Lesen oben im Sprachmenü eine andere Sprache. So öffnet sich derselbe Beitrag in dieser Sprache. Wenn du einen Rätseltipp teilen willst, wechsel zur Sprache der Person und schick ihr den Link."
-      ]
+        "Wähl beim Lesen oben im Sprachmenü eine andere Sprache. So öffnet sich derselbe Beitrag in dieser Sprache."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "es": {
       "title": "Lee el diario en tu idioma",
       "summary": "El sitio de Shoopa está disponible en doce idiomas.",
       "body": [
-        "Mientras lees una entrada, elige otro idioma en el menú superior. Se abrirá la misma entrada en ese idioma. Si quieres compartir un consejo con alguien, cambia a su idioma y envíale el enlace."
-      ]
+        "Mientras lees una entrada, elige otro idioma en el menú superior. Se abrirá la misma entrada en ese idioma."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "fr": {
       "title": "Lis le journal dans ta langue",
       "summary": "Le site de Shoopa est disponible en douze langues.",
       "body": [
-        "En lisant un article, choisis une autre langue dans le menu en haut. Le même article s’ouvre dans cette langue. Pour partager une astuce, passe dans la langue de ton ami ou amie et envoie le lien."
-      ]
+        "En lisant un article, choisis une autre langue dans le menu en haut. Le même article s’ouvre dans cette langue."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "id": {
       "title": "Baca jurnal dalam bahasamu",
       "summary": "Situs Shoopa tersedia dalam dua belas bahasa.",
       "body": [
-        "Saat membaca tulisan, pilih bahasa lain dari menu di bagian atas. Tulisan yang sama akan terbuka dalam bahasa itu. Kalau ingin berbagi kiat dengan teman, pilih bahasa yang mereka baca lalu kirim tautannya."
-      ]
+        "Saat membaca tulisan, pilih bahasa lain dari menu di bagian atas. Tulisan yang sama akan terbuka dalam bahasa itu."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "ja": {
       "title": "好きな言語でジャーナルを読む",
       "summary": "Shoopaのウェブサイトは12言語で読めます。",
       "body": [
-        "記事を読んでいる途中で、上のメニューから別の言語を選んでみてください。同じ記事のその言語版が開きます。攻略のヒントを友達に送るときは、相手が読みやすい言語に切り替えてからリンクを送れます。"
-      ]
+        "記事を読んでいる途中で、上のメニューから別の言語を選んでみてください。同じ記事のその言語版が開きます。"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "pt-BR": {
       "title": "Leia o diário no seu idioma",
       "summary": "O site do Shoopa está disponível em doze idiomas.",
       "body": [
-        "Enquanto lê um artigo, escolha outro idioma no menu lá em cima. O mesmo artigo abre nesse idioma. Para compartilhar uma dica com alguém, mude para o idioma da pessoa e envie o link."
-      ]
+        "Enquanto lê um artigo, escolha outro idioma no menu lá em cima. O mesmo artigo abre nesse idioma."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "th": {
       "title": "อ่านบันทึกในภาษาของคุณ",
       "summary": "เว็บไซต์ Shoopa มีให้เลือกสิบสองภาษา",
       "body": [
-        "ระหว่างอ่านบทความ ลองเลือกภาษาอื่นจากเมนูด้านบน บทความเดิมจะเปิดในภาษาที่เลือก ถ้าอยากแชร์เคล็ดลับให้เพื่อน ก็เปลี่ยนเป็นภาษาที่เพื่อนอ่านแล้วส่งลิงก์นั้นได้เลย"
-      ]
+        "ระหว่างอ่านบทความ ลองเลือกภาษาอื่นจากเมนูด้านบน บทความเดิมจะเปิดในภาษาที่เลือก"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "tr": {
       "title": "Günlüğü kendi dilinde oku",
       "summary": "Shoopa web sitesi on iki dilde okunabiliyor.",
       "body": [
-        "Bir yazıyı okurken üstteki dil menüsünden başka bir dil seç. Aynı yazı o dilde açılır. Bir bulmaca ipucunu arkadaşınla paylaşmak için onun okuduğu dile geçip bağlantıyı gönderebilirsin."
-      ]
+        "Bir yazıyı okurken üstteki dil menüsünden başka bir dil seç. Aynı yazı o dilde açılır."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "vi": {
       "title": "Đọc nhật ký bằng ngôn ngữ của bạn",
       "summary": "Trang web Shoopa có mười hai ngôn ngữ.",
       "body": [
-        "Khi đang đọc một bài, hãy chọn ngôn ngữ khác trong menu phía trên. Bài đó sẽ mở bằng ngôn ngữ vừa chọn. Muốn chia sẻ một mẹo với bạn bè, hãy chuyển sang ngôn ngữ họ đọc rồi gửi đường dẫn."
-      ]
+        "Khi đang đọc một bài, hãy chọn ngôn ngữ khác trong menu phía trên. Bài đó sẽ mở bằng ngôn ngữ vừa chọn."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "zh-Hant": {
       "title": "用熟悉的語言讀開發日誌",
       "summary": "Shoopa 網站提供十二種語言。",
       "body": [
-        "閱讀文章時，可以從上方選單切換語言。切換後會開啟同一篇文章的對應語言版。想把解謎技巧分享給朋友，可以先切換到對方閱讀的語言，再傳送連結。"
-      ]
+        "閱讀文章時，可以從上方選單切換語言。切換後會開啟同一篇文章的對應語言版。"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     }
   }
 }

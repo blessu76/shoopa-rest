@@ -3,87 +3,111 @@
   "editions": {
     "ko": {
       "title": "막힌 화살표를 만났을 때",
-      "summary": "잃은 하트 뒤에는 막힌 길이 남아 있어요.",
+      "summary": "막힌 길을 따라가면 다음 수가 보일 수 있어요.",
       "body": [
         "막힌 블록을 탭하면 콤보가 끊기고 하트가 하나 줄어요. 같은 블록을 다시 누르기 전에 화살표 방향을 따라가며, 길을 막는 블록에 먼저 빠질 길이 있는지 살펴보세요."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "en": {
       "title": "After a blocked tap",
       "summary": "Use the blocked path to find a new move.",
       "body": [
         "Tapping a blocked arrow breaks the combo and costs a heart. Before tapping the same block again, follow its arrow and see whether you can clear the block in its way first."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "de": {
       "title": "Nach einem blockierten Zug",
       "summary": "Die versperrte Route kann dir den nächsten Zug zeigen.",
       "body": [
         "Tippst du auf einen blockierten Pfeil, endet die Kombo und du verlierst ein Herz. Folge dem Pfeil, bevor du erneut tippst. Vielleicht kannst du den Block im Weg zuerst entfernen."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "es": {
       "title": "Después de un toque bloqueado",
       "summary": "El camino cerrado puede darte la pista para seguir.",
       "body": [
         "Tocar una flecha atascada corta el combo y cuesta un corazón. Antes de tocarla de nuevo, sigue su dirección y comprueba si puedes sacar primero el bloque que la detiene."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "fr": {
       "title": "Après un geste bloqué",
       "summary": "Le passage fermé peut te donner une piste.",
       "body": [
         "Toucher une flèche bloquée coupe le combo et coûte un cœur. Avant de retoucher le même bloc, suis la flèche et regarde si tu peux d’abord retirer le bloc qui gêne."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "id": {
-      "title": "Setelah salah mengetuk",
+      "title": "Saat mengetuk blok yang terhalang",
       "summary": "Jalur yang tertutup bisa memberi petunjuk untuk langkah baru.",
       "body": [
         "Mengetuk panah yang terhalang memutus kombo dan mengurangi satu hati. Sebelum mengetuk blok yang sama lagi, ikuti arah panahnya dan lihat apakah blok penghalangnya bisa dikeluarkan dulu."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "ja": {
       "title": "道をふさがれていたら",
       "summary": "通れなかった道に、次の一手のヒントがあります。",
       "body": [
         "道がふさがれた矢印をタップすると、コンボが途切れてハートが一つ減ります。同じブロックをまた押す前に矢印の先を見て、邪魔しているブロックから外せるか確かめましょう。"
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "pt-BR": {
       "title": "Depois de um toque bloqueado",
       "summary": "O caminho fechado pode sugerir a próxima jogada.",
       "body": [
         "Tocar numa seta bloqueada interrompe o combo e custa um coração. Antes de tocar no mesmo bloco de novo, siga a seta e veja se dá para tirar primeiro o bloco que está no caminho."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "th": {
       "title": "เมื่อแตะลูกศรที่ทางตัน",
       "summary": "ทางตันอาจบอกใบ้ตาต่อไปได้",
       "body": [
         "การแตะลูกศรที่ถูกขวางจะตัดคอมโบและเสียหัวใจหนึ่งดวง ก่อนแตะบล็อกเดิมอีกครั้ง ลองมองตามลูกศรแล้วดูว่าเอาบล็อกที่ขวางออกก่อนได้ไหม"
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "tr": {
       "title": "Kapalı yola dokununca",
       "summary": "Kapalı yol, sonraki hamle için bir ipucu verebilir.",
       "body": [
         "Yolu kapalı bir oka dokunmak komboyu bozar ve bir kalbe mal olur. Aynı bloğa yeniden dokunmadan önce oku takip et ve yolunu kapatan bloğu önce çıkarıp çıkaramayacağına bak."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "vi": {
       "title": "Sau một lần chạm bị chặn",
       "summary": "Đường bị chặn có thể gợi ý cho nước đi tiếp theo.",
       "body": [
         "Chạm vào mũi tên bị chặn sẽ ngắt combo và làm mất một tim. Trước khi chạm lại khối đó, hãy nhìn theo hướng mũi tên và xem có thể lấy khối chắn đường ra trước không."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "zh-Hant": {
       "title": "點到受阻的箭頭後",
       "summary": "走不通的那條路，也可能給你下一步的線索。",
       "body": [
         "點到受阻的箭頭會中斷連擊，並失去一顆愛心。再次點擊之前，順著箭頭看看能不能先移開擋路的方塊。"
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     }
   }
 }

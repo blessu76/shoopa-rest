@@ -5,85 +5,109 @@
       "title": "빈칸 너머까지",
       "summary": "바로 앞이 비어 있어도 판 끝까지 살펴보세요.",
       "body": [
-        "오른쪽을 가리키는 블록 앞에 빈칸이 하나 있다고 해 볼까요? 그 너머에 다른 블록이 있으면 길은 여전히 막혀 있어요. 탭하기 전에 손가락 대신 눈으로 화살표의 끝까지 따라가 보세요."
-      ]
+        "오른쪽을 가리키는 블록 앞에 빈칸이 하나 있다고 해 볼까요? 그 너머에 다른 블록이 있으면 길은 여전히 막혀 있어요. 탭하기 전에 화살표가 가리키는 방향을 따라 판 끝까지 살펴보세요."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "en": {
       "title": "Look past the gap",
       "summary": "Check the whole path, all the way to the board’s edge.",
       "body": [
-        "Imagine a right-pointing arrow with a blank square ahead. If another block sits beyond that gap, the path is still blocked. Trace the arrow’s route with your eyes before you tap."
-      ]
+        "Imagine a right-pointing arrow with a blank square ahead. If another block sits beyond that gap, the path is still blocked. Before you tap, follow the arrow’s direction all the way to the edge of the board."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "de": {
       "title": "Über die Lücke hinaus",
       "summary": "Prüf den ganzen Weg bis zum Spielfeldrand.",
       "body": [
-        "Vor einem Pfeil nach rechts ist ein Feld frei. Steht dahinter ein weiterer Block, ist der Weg trotzdem versperrt. Folge der Pfeilrichtung mit den Augen, bevor du tippst."
-      ]
+        "Vor einem Pfeil nach rechts ist ein Feld frei. Steht dahinter ein weiterer Block, ist der Weg trotzdem versperrt. Folge der Pfeilrichtung bis zum Spielfeldrand, bevor du tippst."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "es": {
       "title": "Mira más allá del hueco",
       "summary": "Revisa todo el camino hasta el borde del tablero.",
       "body": [
-        "Imagina que hay una casilla vacía delante de una flecha que apunta a la derecha. Si hay otro bloque más allá del hueco, el paso sigue cerrado. Sigue el recorrido con la vista antes de tocar."
-      ]
+        "Imagina que hay una casilla vacía delante de una flecha que apunta a la derecha. Si hay otro bloque más allá del hueco, el paso sigue cerrado. Antes de tocar, sigue la dirección de la flecha hasta el borde del tablero."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "fr": {
       "title": "Regarde au-delà de la case vide",
       "summary": "Suis tout le trajet jusqu’au bord du plateau.",
       "body": [
-        "Imagine une flèche vers la droite avec une case vide devant elle. Si un bloc se trouve au-delà de cette case, le passage reste bloqué. Suis le trajet des yeux avant de toucher la flèche."
-      ]
+        "Imagine une flèche vers la droite avec une case vide devant elle. Si un bloc se trouve au-delà de cette case, le passage reste bloqué. Avant de toucher la flèche, suis sa direction jusqu’au bord du plateau."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "id": {
       "title": "Lihat lebih jauh dari petak kosong",
       "summary": "Periksa seluruh jalur sampai ke tepi papan.",
       "body": [
-        "Bayangkan ada satu petak kosong di depan panah yang mengarah ke kanan. Kalau ada blok di balik petak itu, jalurnya masih tertutup. Ikuti arah panah dengan mata sebelum mengetuknya."
-      ]
+        "Bayangkan ada satu petak kosong di depan panah yang mengarah ke kanan. Kalau ada blok di balik petak itu, jalurnya masih tertutup. Sebelum mengetuk, ikuti arah panah sampai ke tepi papan."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "ja": {
       "title": "空きマスの先まで",
       "summary": "盤面の端まで、矢印の通り道を見てみましょう。",
       "body": [
-        "右向きの矢印の前に空きマスが一つあるとします。その先に別のブロックがあれば、まだ外せません。タップする前に、矢印の先を目でたどってみましょう。"
-      ]
+        "右向きの矢印の前に空きマスが一つあるとします。その先に別のブロックがあれば、まだ外せません。タップする前に、矢印が指す方向を盤面の端まで目でたどってみましょう。"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "pt-BR": {
       "title": "Olhe além da casa vazia",
       "summary": "Confira todo o caminho até a borda do tabuleiro.",
       "body": [
-        "Imagine uma seta para a direita com uma casa vazia à frente. Se houver outro bloco depois dela, o caminho ainda está fechado. Siga o trajeto com os olhos antes de tocar."
-      ]
+        "Imagine uma seta para a direita com uma casa vazia à frente. Se houver outro bloco depois dela, o caminho ainda está fechado. Antes de tocar, siga a direção da seta até a borda do tabuleiro."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "th": {
       "title": "มองเลยช่องว่างไปอีกนิด",
       "summary": "ไล่ดูทางของลูกศรให้ถึงขอบกระดาน",
       "body": [
-        "ลองนึกถึงลูกศรที่ชี้ไปทางขวาและมีช่องว่างอยู่ข้างหน้าหนึ่งช่อง ถ้ามีบล็อกอยู่ถัดจากช่องว่าง ทางก็ยังตันอยู่ ใช้สายตาไล่ตามทางของลูกศรก่อนแตะ"
-      ]
+        "ลองนึกถึงลูกศรที่ชี้ไปทางขวาและมีช่องว่างอยู่ข้างหน้าหนึ่งช่อง ถ้ามีบล็อกอยู่ถัดจากช่องว่าง ทางก็ยังตันอยู่ ก่อนแตะ ลองไล่ดูตามทิศที่ลูกศรชี้ไปจนถึงขอบกระดาน"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "tr": {
       "title": "Boşluğun ötesine bak",
       "summary": "Yolu tahtanın kenarına kadar kontrol et.",
       "body": [
-        "Sağa bakan bir okun önünde boş bir kare olduğunu düşün. Boşluğun ötesinde başka bir blok varsa yol hâlâ kapalıdır. Dokunmadan önce okun yolunu gözünle takip et."
-      ]
+        "Sağa bakan bir okun önünde boş bir kare olduğunu düşün. Boşluğun ötesinde başka bir blok varsa yol hâlâ kapalıdır. Dokunmadan önce okun gösterdiği yönü tahtanın kenarına kadar gözünle takip et."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "vi": {
       "title": "Nhìn qua ô trống",
       "summary": "Hãy kiểm tra cả đường đi cho đến mép bàn chơi.",
       "body": [
-        "Hãy tưởng tượng có một ô trống trước mũi tên chỉ sang phải. Nếu phía sau ô trống vẫn có khối khác, đường đi vẫn bị chặn. Hãy dò theo hướng mũi tên bằng mắt trước khi chạm."
-      ]
+        "Hãy tưởng tượng có một ô trống trước mũi tên chỉ sang phải. Nếu phía sau ô trống vẫn có khối khác, đường đi vẫn bị chặn. Trước khi chạm, hãy nhìn theo hướng mũi tên đến tận mép bàn chơi."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "zh-Hant": {
       "title": "看看空格的另一頭",
       "summary": "順著箭頭一路看到棋盤邊緣。",
       "body": [
-        "想像朝右的箭頭前方有一個空格。空格後面若還有方塊，路就依然堵著。點擊前，先用眼睛順著箭頭看一遍。"
-      ]
+        "想像朝右的箭頭前方有一個空格。空格後面若還有方塊，路就依然堵著。點擊前，先沿著箭頭指的方向一路看到棋盤邊緣。"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     }
   }
 }

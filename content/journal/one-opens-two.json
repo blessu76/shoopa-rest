@@ -2,88 +2,112 @@
   "date": "2026-11-29",
   "editions": {
     "ko": {
-      "title": "한 칸이 열어 주는 두 길",
+      "title": "블록 하나가 두 길을 열 수 있어요",
       "summary": "블록을 뺀 자리의 가로줄과 세로줄을 함께 보세요.",
       "body": [
-        "한 블록이 가로로 나가면 그 자리의 세로 길도 비어요. 다음 수가 안 보일 때는 방금 빈칸에 어떤 화살표가 향하는지 가로와 세로 양쪽에서 찾아보세요."
-      ]
+        "블록 하나가 가로로 빠져나가면 그 칸을 지나는 세로 길에도 빈칸이 생겨요. 다음 수가 안 보일 때는 방금 비운 칸을 향하는 화살표가 있는지 가로줄과 세로줄에서 찾아보세요."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "en": {
       "title": "One block can open two paths",
       "summary": "Look along the row and column of the square you just cleared.",
       "body": [
-        "When a block slides out along a row, it leaves a gap in its column too. If the next move isn’t obvious, look for arrows pointing through that gap from either direction."
-      ]
+        "When a block slides out along a row, it leaves a gap in its column too. If the next move isn’t obvious, look along both the row and the column for arrows that point through that gap."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "de": {
       "title": "Ein Block kann zwei Wege öffnen",
       "summary": "Schau in die Reihe und die Spalte des gerade geräumten Feldes.",
       "body": [
-        "Gleitet ein Block seitlich hinaus, hinterlässt er auch in seiner Spalte eine Lücke. Wenn du den nächsten Zug suchst, schau nach Pfeilen, die durch diese Lücke zeigen."
-      ]
+        "Gleitet ein Block seitlich hinaus, hinterlässt er auch in seiner Spalte eine Lücke. Wenn du den nächsten Zug suchst, schau in der Reihe und in der Spalte nach Pfeilen, die auf diese Lücke zeigen."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "es": {
       "title": "Un bloque puede abrir dos caminos",
       "summary": "Mira la fila y la columna de la casilla que acabas de liberar.",
       "body": [
         "Cuando un bloque sale por su fila, también deja un hueco en su columna. Si no ves la próxima jugada, busca flechas que apunten hacia ese hueco por la fila o por la columna."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "fr": {
       "title": "Un bloc peut libérer deux passages",
       "summary": "Regarde la ligne et la colonne de la case que tu viens de libérer.",
       "body": [
-        "Quand un bloc sort par sa ligne, il crée aussi un vide dans sa colonne. Si tu cherches ton prochain coup, repère les flèches qui pointent vers cette case sur les deux axes."
-      ]
+        "Quand un bloc sort par sa ligne, il crée aussi un vide dans sa colonne. Si tu cherches ton prochain coup, regarde dans la ligne et dans la colonne si des flèches pointent vers cette case."
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "id": {
       "title": "Satu blok bisa membuka dua jalur",
       "summary": "Perhatikan baris dan kolom dari petak yang baru saja kosong.",
       "body": [
         "Ketika sebuah blok meluncur keluar lewat barisnya, kolomnya juga mendapat satu celah. Kalau langkah berikutnya belum terlihat, cari panah yang mengarah ke celah itu dari baris maupun kolom."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "ja": {
-      "title": "一つのブロックが開く二つの道",
+      "title": "一つのブロックで二つの道が開くことも",
       "summary": "空いたマスの横と縦を見てみましょう。",
       "body": [
-        "ブロックが横に抜けると、同じマスを通る縦の道も空きます。次の手が見えないときは、空いたマスに向かう矢印を横と縦の両方から探してみましょう。"
-      ]
+        "ブロックが横に抜けると、そのマスを通る縦の道にも空きが一つできます。次の手が見えないときは、空いたマスに向かう矢印を横と縦の両方から探してみましょう。"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "pt-BR": {
       "title": "Um bloco pode abrir dois caminhos",
       "summary": "Olhe a linha e a coluna da casa que você acabou de liberar.",
       "body": [
         "Quando um bloco sai pela linha, ele também deixa um espaço na coluna. Se a próxima jogada não estiver clara, procure setas apontando para esse espaço na linha e na coluna."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "th": {
       "title": "บล็อกเดียวอาจเปิดได้สองทาง",
       "summary": "ดูทั้งแถวและคอลัมน์ของช่องที่เพิ่งว่าง",
       "body": [
-        "เมื่อบล็อกเลื่อนออกตามแนวนอน ช่องในแนวตั้งก็ว่างไปด้วย ถ้ายังไม่เห็นตาต่อไป ลองหาลูกศรที่ชี้ผ่านช่องนั้นทั้งสองแนว"
-      ]
+        "เมื่อบล็อกเลื่อนออกตามแนวนอน คอลัมน์ที่ผ่านช่องนั้นก็มีช่องว่างเพิ่มหนึ่งช่อง ถ้ายังไม่เห็นตาต่อไป ลองมองตามแถวและคอลัมน์ว่ามีลูกศรชี้ผ่านช่องนั้นไหม"
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "tr": {
       "title": "Bir blok iki yol açabilir",
       "summary": "Yeni boşalttığın karenin satırına ve sütununa bak.",
       "body": [
         "Blok satır boyunca çıktığında sütunda da bir boşluk kalır. Sonraki hamleyi göremiyorsan hem satırda hem sütunda o boşluğa doğru bakan okları ara."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "vi": {
       "title": "Một khối có thể mở hai đường",
       "summary": "Hãy nhìn dọc theo hàng và cột của ô vừa được dọn trống.",
       "body": [
         "Khi một khối trượt ra theo hàng ngang, nó cũng để lại một khoảng trống trong cột. Nếu chưa thấy nước tiếp theo, hãy tìm mũi tên hướng về khoảng trống từ cả hàng lẫn cột."
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     },
     "zh-Hant": {
       "title": "一個方塊可以打開兩條路",
       "summary": "看看剛空出來的格子所在的橫列和直欄。",
       "body": [
         "方塊沿橫列滑出去時，也會在直欄上空出一格。找不到下一步時，從橫列和直欄看看哪些箭頭指向這個空格。"
-      ]
+      ],
+      "copy_review": "iris",
+      "copy_review_date": "2026-11-26"
     }
   }
 }
