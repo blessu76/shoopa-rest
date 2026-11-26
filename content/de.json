@@ -1,0 +1,77 @@
+{
+  "brand": "Shoopa",
+  "genre": "Pfeil-Tipppuzzle",
+  "nav": {
+    "play": "Spielanleitung",
+    "journal": "Entwicklertagebuch",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "menu": "Menü",
+    "footer": "Fußzeilennavigation"
+  },
+  "coming": "Demnächst",
+  "contact": "Kontakt",
+  "home": {
+    "tagline": "Finde den Weg und tippe.",
+    "description": "Tippe einen Pfeilblock an, sobald sein Weg frei ist. Finde die richtige Reihenfolge und räume das Brett Stück für Stück leer.",
+    "rules_title": "So läuft eine Runde ab",
+    "rules": [
+      [
+        "Finde einen freien Weg",
+        "Ein Block kann das Brett verlassen, wenn in Pfeilrichtung bis zum Rand alle Felder frei sind."
+      ],
+      [
+        "Kombos in 0,9 Sekunden",
+        "Entferne innerhalb von 0,9 Sekunden einen weiteren Block, damit deine Kombo weiterläuft."
+      ],
+      [
+        "Drei Herzen, zwei Hinweise",
+        "Tippst du einen blockierten Pfeil an, verlierst du ein Herz. Du kannst dasselbe Brett kostenlos erneut spielen."
+      ]
+    ],
+    "launch_title": "Zwei Rekorde warten",
+    "launch_body": "Spiele werbefrei auf Brettern von 5×5 bis 9×9. Bestenlisten für die höchste Stufe und die beste Tageskombo sind geplant. Für die Tageskombo zählen nur Runden ohne Hinweise."
+  },
+  "play": {
+    "description": "Beginne mit einem Block, dessen Weg in Pfeilrichtung bis zum Rand frei ist. Entferne alle Blöcke, um die nächste Stufe zu erreichen.",
+    "body": "Die Webversion ist in Vorbereitung. Die Links zu den Stores folgen zur Veröffentlichung."
+  },
+  "privacy": {
+    "description": "Diese Erklärung beschreibt, wie die Shoopa-App und ihre offizielle Website Daten verarbeiten.",
+    "sections": [
+      [
+        "Offizielle Website",
+        "Die Website speichert deine Sprachauswahl im Browser. Du kannst sie in den Browsereinstellungen löschen."
+      ],
+      [
+        "Cloud-Spielstände und Bestenlisten",
+        "Bei Nutzung der Cloud-Funktionen speichern die Plattformdienste Spielfortschritt und Bestenlistendaten. Unter iOS speichert iCloud den Fortschritt. Game Center verarbeitet Rekorde für die höchste Stufe und Tageskombos. Unter Android speichert Google Play Spiele den Fortschritt und Bestenlistendaten. Andere Spieler können deinen Profilnamen und deine Ergebnisse in Bestenlisten sehen. Gespeicherte Daten und deren Sichtbarkeit verwaltest du im Plattformkonto."
+      ],
+      [
+        "In-App-Käufe",
+        "Der App Store oder Google Play wickelt die Zahlung für das optionale, nicht verbrauchbare Mondlicht-Paket ab und speichert den Kaufverlauf. Die App prüft den Kaufstatus, um das Paket freizuschalten oder wiederherzustellen. Kartennummern werden nicht an ipe Studio übermittelt."
+      ]
+    ]
+  },
+  "terms": {
+    "description": "Diese Bedingungen gelten für die Shoopa-App und ihre offizielle Website von ipe Studio.",
+    "sections": [
+      [
+        "Nutzung des Spiels",
+        "Du kannst das Spiel privat, kostenlos und werbefrei spielen. Manipulationen von Bestenlisten und Störungen anderer Spieler sind untersagt."
+      ],
+      [
+        "Mondlicht-Paket",
+        "Dieser optionale, nicht verbrauchbare In-App-Kauf ändert das Aussehen der Blöcke und den Hintergrund. Der US-Richtpreis beträgt 1,99 US-Dollar. Preis und Währung stehen im Kaufdialog. Käufe lassen sich mit dem ursprünglichen Store-Konto wiederherstellen. Rückerstattungen kannst du beim jeweiligen Store beantragen. Gesetzliche Verbraucherrechte gelten weiterhin."
+      ],
+      [
+        "Plattformdienste",
+        "Für Cloud-Spielstände, Bestenlisten und Käufe gelten die Bedingungen der jeweiligen Plattform. Informationen zur Datenverarbeitung stehen in der Datenschutzerklärung."
+      ]
+    ]
+  },
+  "journal": {
+    "description": "Wie die Regeln und das Design von Shoopa entstanden sind.",
+    "empty": "Der erste Entwicklungsbericht ist in Arbeit."
+  }
+}

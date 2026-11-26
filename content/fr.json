@@ -1,0 +1,77 @@
+{
+  "brand": "Shoopa",
+  "genre": "Puzzle de flèches",
+  "nav": {
+    "play": "Comment jouer",
+    "journal": "Journal",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d’utilisation",
+    "menu": "Menu",
+    "footer": "Navigation de pied de page"
+  },
+  "coming": "Bientôt disponible",
+  "contact": "Contact",
+  "home": {
+    "tagline": "Repérez la sortie, puis touchez.",
+    "description": "Touchez un bloc quand sa flèche indique un passage libre. Trouvez le bon ordre et videz le plateau, un bloc à la fois.",
+    "rules_title": "Le déroulement d’une partie",
+    "rules": [
+      [
+        "Trouvez un passage libre",
+        "Un bloc peut sortir si le chemin indiqué par sa flèche est dégagé jusqu’au bord."
+      ],
+      [
+        "Enchaînez en 0,9 seconde",
+        "Retirez un autre bloc dans les 0,9 seconde pour prolonger votre combo."
+      ],
+      [
+        "Trois cœurs et deux indices",
+        "Toucher un bloc coincé coûte un cœur. Vous pouvez rejouer le même plateau gratuitement."
+      ]
+    ],
+    "launch_title": "Deux records à battre",
+    "launch_body": "Jouez sans publicité sur des plateaux de 5×5 à 9×9. Les classements du meilleur niveau et du meilleur combo quotidien sont en préparation. Seules les parties sans indice comptent pour le combo quotidien."
+  },
+  "play": {
+    "description": "Commencez par un bloc dont le chemin est libre jusqu’au bord dans le sens de sa flèche. Retirez tous les blocs pour passer au niveau suivant.",
+    "body": "La version web est en préparation. Les liens vers les boutiques seront disponibles au lancement."
+  },
+  "privacy": {
+    "description": "Cette politique explique comment l’application Shoopa et son site officiel traitent les données.",
+    "sections": [
+      [
+        "Site officiel",
+        "Le site enregistre votre langue dans votre navigateur. Vous pouvez effacer cette préférence dans les paramètres du navigateur."
+      ],
+      [
+        "Sauvegardes et classements",
+        "Lorsque vous utilisez les fonctionnalités en ligne, les services de la plateforme conservent la progression et les données de classement. Sur iOS, iCloud sauvegarde la progression et Game Center gère les records de niveau et de combo quotidien. Sur Android, Google Play Jeux stocke la progression et les données de classement. D’autres joueurs peuvent voir votre nom de profil et vos scores dans les classements. Gérez les sauvegardes et leur visibilité depuis votre compte de plateforme."
+      ],
+      [
+        "Achats intégrés",
+        "L’App Store ou Google Play traite le paiement du pack facultatif et non consommable Clair de lune et conserve l’historique de l’achat. L’application vérifie le statut de l’achat pour débloquer ou restaurer le pack. Les numéros de carte ne sont pas transmis à ipe Studio."
+      ]
+    ]
+  },
+  "terms": {
+    "description": "Ces conditions s’appliquent à l’application Shoopa et à son site officiel, fournis par ipe Studio.",
+    "sections": [
+      [
+        "Utilisation du jeu",
+        "Vous pouvez jouer gratuitement et sans publicité à titre personnel. Il est interdit de manipuler les classements ou d’entraver l’utilisation du jeu par d’autres joueurs."
+      ],
+      [
+        "Pack Clair de lune",
+        "Cet achat intégré facultatif et non consommable modifie l’apparence des blocs et le fond. Le prix indicatif aux États-Unis est de 1,99 $US. L’écran d’achat indique le prix et la devise applicables. Utilisez le compte de la boutique d’origine pour restaurer l’achat et adressez vos demandes de remboursement à cette boutique. Vos droits légaux de consommateur s’appliquent."
+      ],
+      [
+        "Services de la plateforme",
+        "Les conditions de la plateforme s’appliquent aux sauvegardes, aux classements et aux achats. Consultez la politique de confidentialité pour connaître le traitement des données."
+      ]
+    ]
+  },
+  "journal": {
+    "description": "Les coulisses des règles et du design de Shoopa.",
+    "empty": "Le premier récit de développement est en préparation."
+  }
+}

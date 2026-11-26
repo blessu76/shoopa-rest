@@ -1,0 +1,77 @@
+{
+  "brand": "Shoopa",
+  "genre": "Quebra-cabeça de setas",
+  "nav": {
+    "play": "Como jogar",
+    "journal": "Diário",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Uso",
+    "menu": "Menu",
+    "footer": "Navegação do rodapé"
+  },
+  "coming": "Em breve",
+  "contact": "Contato",
+  "home": {
+    "tagline": "Achou a saída? É só tocar.",
+    "description": "Toque no bloco quando o caminho da seta estiver livre. Descubra a ordem certa e esvazie o tabuleiro, um bloco de cada vez.",
+    "rules_title": "Como funciona a partida",
+    "rules": [
+      [
+        "Encontre um caminho livre",
+        "O bloco pode sair quando todas as casas na direção da seta estiverem livres até a borda."
+      ],
+      [
+        "Emende jogadas em 0,9 s",
+        "Remova outro bloco em até 0,9 segundo para manter o combo."
+      ],
+      [
+        "Três corações e duas dicas",
+        "Ao tocar em um bloco preso, você perde um coração. Tente o mesmo tabuleiro de novo de graça."
+      ]
+    ],
+    "launch_title": "Dois recordes para bater",
+    "launch_body": "Jogue em tabuleiros de 5×5 a 9×9 sem anúncios. Estamos preparando os rankings de maior fase e melhor combo diário. Só partidas sem dicas contam para o combo diário."
+  },
+  "play": {
+    "description": "Comece por um bloco com o caminho livre até a borda na direção da seta. Tire todos os blocos para avançar de fase.",
+    "body": "A versão para navegador está em preparação. Os links das lojas estarão disponíveis no lançamento."
+  },
+  "privacy": {
+    "description": "Esta política explica como o aplicativo Shoopa e seu site oficial tratam os dados.",
+    "sections": [
+      [
+        "Site oficial",
+        "O site armazena sua preferência de idioma no navegador. Você pode apagá-la nas configurações do navegador."
+      ],
+      [
+        "Progresso na nuvem e rankings",
+        "Ao usar recursos na nuvem, os serviços da plataforma guardam o progresso e os dados dos rankings. No iOS, o iCloud guarda o progresso, e o Game Center gerencia os recordes de fase e de combo diário. No Android, o Google Play Games armazena o progresso e os dados dos rankings. Outros jogadores podem ver seu nome de perfil e seus resultados nos rankings. Gerencie os dados salvos e a visibilidade na conta da plataforma."
+      ],
+      [
+        "Compras no aplicativo",
+        "A App Store ou o Google Play processa o pagamento e guarda o histórico da compra opcional e não consumível do Pacote Luar. O aplicativo verifica o status da compra para desbloquear ou restaurar o pacote. Os números de cartão não são enviados à ipe Studio."
+      ]
+    ]
+  },
+  "terms": {
+    "description": "Estes termos se aplicam ao aplicativo Shoopa e ao site oficial oferecidos pela ipe Studio.",
+    "sections": [
+      [
+        "Uso do jogo",
+        "Você pode jogar para fins pessoais, de graça e sem anúncios. Não manipule rankings nem prejudique o uso do jogo por outras pessoas."
+      ],
+      [
+        "Pacote Luar",
+        "O Pacote Luar é uma compra opcional e não consumível no aplicativo que muda a aparência dos blocos e o fundo. O preço de referência nos EUA é US$1.99. Confira o preço e a moeda na tela de compra. Restaure o pacote com a conta da loja que fez a compra e solicite reembolsos à mesma loja. Seus direitos legais de consumidor se aplicam."
+      ],
+      [
+        "Serviços da plataforma",
+        "Os termos da plataforma valem para salvamento na nuvem, rankings e compras. Consulte a Política de Privacidade para saber como os dados são tratados."
+      ]
+    ]
+  },
+  "journal": {
+    "description": "Anotações sobre as regras e decisões de design de Shoopa.",
+    "empty": "O primeiro relato de desenvolvimento está em preparação."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "brand": "Shoopa",
+  "genre": "Giải đố chạm mũi tên",
+  "nav": {
+    "play": "Cách chơi",
+    "journal": "Nhật ký phát triển",
+    "privacy": "Chính sách quyền riêng tư",
+    "terms": "Điều khoản sử dụng",
+    "menu": "Menu",
+    "footer": "Điều hướng chân trang"
+  },
+  "coming": "Sắp ra mắt",
+  "contact": "Liên hệ",
+  "home": {
+    "tagline": "Tìm lối ra, chạm để gỡ.",
+    "description": "Chạm vào khối khi đường theo hướng mũi tên đã thông. Tìm đúng thứ tự để dọn sạch bàn, từng khối một.",
+    "rules_title": "Cách chơi một ván",
+    "rules": [
+      [
+        "Tìm đường thông",
+        "Khối có thể rời bàn khi tất cả ô theo hướng mũi tên đến mép bàn đều trống."
+      ],
+      [
+        "Nối chuỗi trong 0,9 giây",
+        "Gỡ thêm một khối trong vòng 0,9 giây để nối tiếp chuỗi."
+      ],
+      [
+        "Ba trái tim, hai gợi ý",
+        "Chạm vào khối bị chắn sẽ mất một trái tim. Bạn có thể chơi lại bàn đó miễn phí."
+      ]
+    ],
+    "launch_title": "Hai kỷ lục để chinh phục",
+    "launch_body": "Chơi không quảng cáo trên bàn từ 5×5 đến 9×9. Bảng xếp hạng màn cao nhất và chuỗi tốt nhất trong ngày đang được chuẩn bị. Chỉ ván không dùng gợi ý mới được tính cho chuỗi trong ngày."
+  },
+  "play": {
+    "description": "Bắt đầu bằng khối có đường thông đến mép bàn theo hướng mũi tên. Gỡ hết các khối để sang màn tiếp theo.",
+    "body": "Phiên bản web đang được chuẩn bị. Liên kết cửa hàng sẽ có khi trò chơi ra mắt."
+  },
+  "privacy": {
+    "description": "Chính sách này giải thích cách ứng dụng Shoopa và trang web chính thức xử lý dữ liệu.",
+    "sections": [
+      [
+        "Trang web chính thức",
+        "Trang web lưu tùy chọn ngôn ngữ trong trình duyệt. Bạn có thể xóa tùy chọn này trong phần cài đặt trình duyệt."
+      ],
+      [
+        "Lưu trên đám mây và bảng xếp hạng",
+        "Khi dùng tính năng đám mây, dịch vụ nền tảng lưu tiến độ và dữ liệu bảng xếp hạng. Trên iOS, iCloud lưu tiến độ, còn Game Center xử lý kỷ lục màn cao nhất và chuỗi trong ngày. Trên Android, Google Play Games lưu tiến độ và dữ liệu bảng xếp hạng. Người chơi khác có thể thấy tên hồ sơ và thành tích của bạn trên bảng xếp hạng. Bạn có thể quản lý dữ liệu đã lưu và chế độ hiển thị qua tài khoản nền tảng."
+      ],
+      [
+        "Mua hàng trong ứng dụng",
+        "App Store hoặc Google Play xử lý thanh toán và lưu lịch sử mua Gói Ánh Trăng, một giao dịch tùy chọn và không tiêu hao trong ứng dụng. Ứng dụng kiểm tra trạng thái mua để mở khóa hoặc khôi phục gói. Số thẻ không được gửi cho ipe Studio."
+      ]
+    ]
+  },
+  "terms": {
+    "description": "Điều khoản này áp dụng cho ứng dụng Shoopa và trang web chính thức do ipe Studio cung cấp.",
+    "sections": [
+      [
+        "Sử dụng trò chơi",
+        "Bạn có thể chơi miễn phí, không quảng cáo cho mục đích cá nhân. Không thao túng thành tích trên bảng xếp hạng hoặc cản trở người chơi khác."
+      ],
+      [
+        "Gói Ánh Trăng",
+        "Đây là giao dịch mua trong ứng dụng tùy chọn và không tiêu hao, dùng để đổi diện mạo khối và hình nền. Giá tham khảo tại Hoa Kỳ là US$1.99. Giá thực tế và đơn vị tiền tệ hiển thị khi mua. Hãy dùng tài khoản cửa hàng ban đầu để khôi phục và yêu cầu hoàn tiền qua cửa hàng đó. Các quyền người tiêu dùng theo luật vẫn được áp dụng."
+      ],
+      [
+        "Dịch vụ nền tảng",
+        "Điều khoản của từng nền tảng áp dụng cho lưu trữ đám mây, bảng xếp hạng và giao dịch mua. Xem Chính sách quyền riêng tư để biết cách dữ liệu được xử lý."
+      ]
+    ]
+  },
+  "journal": {
+    "description": "Ghi chép về luật chơi và những lựa chọn thiết kế của Shoopa.",
+    "empty": "Bài viết đầu tiên về quá trình phát triển đang được chuẩn bị."
+  }
+}

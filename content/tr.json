@@ -1,0 +1,77 @@
+{
+  "brand": "Shoopa",
+  "genre": "Ok dokunma bulmacası",
+  "nav": {
+    "play": "Nasıl oynanır?",
+    "journal": "Geliştirme günlüğü",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "menu": "Menü",
+    "footer": "Alt bilgi menüsü"
+  },
+  "coming": "Çok yakında",
+  "contact": "İletişim",
+  "home": {
+    "tagline": "Yolu bul, dokun ve çıkar.",
+    "description": "Okun gösterdiği yol açıldığında bloğa dokun. Doğru sırayı bul ve tahtayı blok blok boşalt.",
+    "rules_title": "Bir tur nasıl oynanır?",
+    "rules": [
+      [
+        "Açık bir yol bul",
+        "Ok yönünde tahtanın kenarına kadar hiçbir blok yoksa o blok çıkabilir."
+      ],
+      [
+        "Komboyu 0,9 saniyede sürdür",
+        "Komboya devam etmek için bir sonraki bloğu 0,9 saniye içinde çıkar."
+      ],
+      [
+        "Üç kalp, iki ipucu",
+        "Yolu kapalı bir oka dokununca bir kalp kaybedersin. Aynı tahtayı ücretsiz yeniden deneyebilirsin."
+      ]
+    ],
+    "launch_title": "Peşinden gidilecek iki rekor",
+    "launch_body": "5×5 ile 9×9 arasındaki tahtalarda reklamsız oyna. En yüksek bölüm ve günlük en iyi kombo sıralamaları hazırlanıyor. Günlük kombo için yalnızca ipucusuz turlar sayılır."
+  },
+  "play": {
+    "description": "Okun gösterdiği yönde kenara kadar yolu açık bir blokla başla. Tüm blokları çıkarıp sonraki bölüme geç.",
+    "body": "Web sürümü hazırlanıyor. Mağaza bağlantıları oyun çıktığında açılacak."
+  },
+  "privacy": {
+    "description": "Bu politika Shoopa uygulamasının ve resmî web sitesinin verileri nasıl işlediğini açıklar.",
+    "sections": [
+      [
+        "Resmî web sitesi",
+        "Site dil tercihini tarayıcına kaydeder. Bu tercihi tarayıcı ayarlarından silebilirsin."
+      ],
+      [
+        "Bulut kayıtları ve sıralamalar",
+        "Bulut özelliklerini kullanırken ilerleme ve sıralama verileri platform hizmetlerinde saklanır. iOS’ta iCloud ilerlemeyi saklar, Game Center en yüksek bölüm ve günlük kombo kayıtlarını işler. Android’de Google Play Oyunlar ilerlemeyi ve sıralama verilerini saklar. Diğer oyuncular profil adını ve skorlarını sıralamalarda görebilir. Kayıtları ve görünürlük ayarlarını platform hesabından yönetebilirsin."
+      ],
+      [
+        "Uygulama içi satın alma",
+        "App Store veya Google Play, isteğe bağlı ve tüketilemeyen Ay Işığı Paketi için ödemeyi işler ve satın alma kaydını saklar. Uygulama paketi açmak veya geri yüklemek için satın alma durumunu kontrol eder. Kart numaraları ipe Studio’ya gönderilmez."
+      ]
+    ]
+  },
+  "terms": {
+    "description": "Bu koşullar ipe Studio tarafından sunulan Shoopa uygulaması ve resmî web sitesi için geçerlidir.",
+    "sections": [
+      [
+        "Oyunu kullanma",
+        "Kişisel kullanım için ücretsiz ve reklamsız oynayabilirsin. Sıralama kayıtlarını manipüle etme veya diğer oyuncuların oyunu kullanmasını engelleme."
+      ],
+      [
+        "Ay Işığı Paketi",
+        "Blokların görünümünü ve arka planı değiştiren bu paket, isteğe bağlı ve tüketilemeyen bir uygulama içi satın almadır. ABD referans fiyatı 1,99 ABD dolarıdır. Gerçek fiyat ve para birimi satın alma ekranında gösterilir. Geri yüklemek için ilk satın almayı yaptığın mağaza hesabını kullan ve iade talebini o mağazaya ilet. Yasal tüketici hakların geçerlidir."
+      ],
+      [
+        "Platform hizmetleri",
+        "Bulut kayıtları, sıralamalar ve satın almalar ilgili platformun koşullarına tabidir. Verilerin nasıl işlendiğini Gizlilik Politikası’nda bulabilirsin."
+      ]
+    ]
+  },
+  "journal": {
+    "description": "Shoopa’nın kuralları ve tasarım kararları üzerine geliştirici notları.",
+    "empty": "İlk geliştirme yazısı hazırlanıyor."
+  }
+}

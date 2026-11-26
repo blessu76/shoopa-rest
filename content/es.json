@@ -1,0 +1,77 @@
+{
+  "brand": "Shoopa",
+  "genre": "Puzle de flechas",
+  "nav": {
+    "play": "Cómo jugar",
+    "journal": "Diario",
+    "privacy": "Política de privacidad",
+    "terms": "Condiciones de uso",
+    "menu": "Menú",
+    "footer": "Navegación del pie de página"
+  },
+  "coming": "Próximamente",
+  "contact": "Contacto",
+  "home": {
+    "tagline": "Encuentra la salida y toca.",
+    "description": "Toca un bloque cuando su flecha tenga el camino libre. Busca el orden adecuado y despeja el tablero pieza a pieza.",
+    "rules_title": "Así funciona una partida",
+    "rules": [
+      [
+        "Encuentra un camino libre",
+        "El bloque puede salir si todas las casillas hacia las que apunta la flecha están libres hasta el borde."
+      ],
+      [
+        "Encadena jugadas en 0,9 s",
+        "Retira el siguiente bloque en 0,9 segundos para prolongar el combo."
+      ],
+      [
+        "Tres corazones y dos pistas",
+        "Pierdes un corazón si tocas una flecha bloqueada. Puedes volver a intentar el mismo tablero gratis."
+      ]
+    ],
+    "launch_title": "Dos récords por superar",
+    "launch_body": "Juega en tableros de 5×5 a 9×9 sin anuncios. Estamos preparando las clasificaciones de nivel más alto y mejor combo diario. Para el combo diario solo cuentan las partidas sin pistas."
+  },
+  "play": {
+    "description": "Empieza por un bloque cuyo camino hasta el borde esté libre en la dirección de su flecha. Retira todos los bloques para pasar al siguiente nivel.",
+    "body": "Estamos preparando la versión web. Los enlaces a las tiendas estarán disponibles en el lanzamiento."
+  },
+  "privacy": {
+    "description": "Esta política explica cómo tratan los datos la aplicación Shoopa y su sitio web oficial.",
+    "sections": [
+      [
+        "Sitio web",
+        "Guardamos tu preferencia de idioma en tu navegador. Puedes borrarla en los ajustes del navegador."
+      ],
+      [
+        "Guardado en la nube y clasificaciones",
+        "Al usar las funciones en la nube, los servicios de la plataforma guardan el progreso y los datos de las clasificaciones. En iOS, iCloud guarda el progreso y Game Center gestiona los récords de nivel y combo diario. En Android, Google Play Juegos guarda el progreso y los datos de las clasificaciones. Otros jugadores pueden ver tu nombre de perfil y tus resultados en las clasificaciones. Puedes gestionar los datos guardados y su visibilidad desde tu cuenta de la plataforma."
+      ],
+      [
+        "Compras en la aplicación",
+        "App Store o Google Play procesa el pago y conserva el historial de compra del paquete opcional no consumible Luz de Luna. La aplicación comprueba el estado de la compra para desbloquear o restaurar el paquete. Los números de tarjeta no se envían a ipe Studio."
+      ]
+    ]
+  },
+  "terms": {
+    "description": "Estas condiciones se aplican a la aplicación Shoopa y al sitio oficial que ofrece ipe Studio.",
+    "sections": [
+      [
+        "Uso del juego",
+        "Puedes jugar gratis y sin anuncios para uso personal. No manipules las clasificaciones ni interfieras con el uso del juego por parte de otras personas."
+      ],
+      [
+        "Paquete Luz de Luna",
+        "Es una compra opcional no consumible dentro de la aplicación que cambia el aspecto de los bloques y el fondo. El precio de referencia en EE. UU. es US$1.99. Consulta el precio y la moneda en la pantalla de compra. Restaura la compra con la cuenta de la tienda original y solicita reembolsos a esa tienda. Se aplican los derechos del consumidor establecidos por ley."
+      ],
+      [
+        "Servicios de la plataforma",
+        "Las condiciones de la plataforma se aplican al guardado en la nube, a las clasificaciones y a las compras. Consulta la Política de privacidad para saber cómo se tratan los datos."
+      ]
+    ]
+  },
+  "journal": {
+    "description": "El diario de las reglas y decisiones de diseño de Shoopa.",
+    "empty": "Estamos preparando la primera historia de desarrollo."
+  }
+}

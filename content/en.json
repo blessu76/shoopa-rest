@@ -1,0 +1,77 @@
+{
+  "brand": "Shoopa",
+  "genre": "Arrow Tap Puzzle",
+  "nav": {
+    "play": "How to play",
+    "journal": "Journal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "menu": "Menu",
+    "footer": "Footer navigation"
+  },
+  "coming": "Coming soon",
+  "contact": "Contact",
+  "home": {
+    "tagline": "Find the path. Tap it clear.",
+    "description": "Tap an arrow block when its path is open. Work out the right order and clear the board, one block at a time.",
+    "rules_title": "How a round works",
+    "rules": [
+      [
+        "Find an open path",
+        "A block can leave when every space in front of its arrow is clear to the edge."
+      ],
+      [
+        "Keep the combo going",
+        "Clear another block within 0.9 seconds of your last clear to extend your combo."
+      ],
+      [
+        "Three hearts, two hints",
+        "Tap a blocked arrow and you lose a heart. You can retry the same board for free."
+      ]
+    ],
+    "launch_title": "Two scores to chase",
+    "launch_body": "Play boards from 5×5 to 9×9 without ads. Highest Stage and Daily Best Combo leaderboards are planned. Only rounds played without hints count toward Daily Best Combo."
+  },
+  "play": {
+    "description": "Start with a block that has a clear path to the edge in the direction of its arrow. Remove every block to reach the next stage.",
+    "body": "Web play is in the works. Store links will be available at launch."
+  },
+  "privacy": {
+    "description": "This policy explains how the Shoopa app and its official website handle data.",
+    "sections": [
+      [
+        "On this website",
+        "The website stores your language preference in your browser. You can clear it in your browser settings."
+      ],
+      [
+        "Cloud saves and leaderboards",
+        "When cloud features are used, platform services store progress and leaderboard data. On iOS, iCloud stores progress and Game Center handles Highest Stage and Daily Best Combo records. On Android, Google Play Games stores progress and leaderboard data. Other players may see your platform profile name and scores on leaderboards. You can manage saved data and visibility through your platform account."
+      ],
+      [
+        "In-app purchases",
+        "The App Store or Google Play processes payments and keeps purchase records for the optional, non-consumable Moonlight Pack. The app checks purchase status to unlock or restore the pack. Card numbers are not sent to ipe Studio."
+      ]
+    ]
+  },
+  "terms": {
+    "description": "These terms apply to the Shoopa app and official website provided by ipe Studio.",
+    "sections": [
+      [
+        "Playing Shoopa",
+        "You may play for personal use, for free and without ads. Do not manipulate leaderboard records or interfere with other players’ use of the game."
+      ],
+      [
+        "Moonlight Pack",
+        "The Moonlight Pack is an optional, non-consumable in-app purchase that changes block skins and the background. The US reference price is US$1.99. Check the purchase screen for the actual price and currency. Use the store account that made the purchase to restore it, and contact that store for refunds. Your statutory consumer rights apply."
+      ],
+      [
+        "Platform services",
+        "Cloud saves, leaderboards and purchases are subject to the relevant platform terms. See the Privacy Policy for how data is handled."
+      ]
+    ]
+  },
+  "journal": {
+    "description": "Notes on the rules and design choices behind Shoopa.",
+    "empty": "The first development story is in the works."
+  }
+}

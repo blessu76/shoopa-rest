@@ -1,0 +1,77 @@
+{
+  "brand": "Shoopa",
+  "genre": "Teka-teki ketuk panah",
+  "nav": {
+    "play": "Cara bermain",
+    "journal": "Jurnal",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Penggunaan",
+    "menu": "Menu",
+    "footer": "Navigasi bagian bawah"
+  },
+  "coming": "Segera hadir",
+  "contact": "Kontak",
+  "home": {
+    "tagline": "Cari jalannya, lalu ketuk.",
+    "description": "Ketuk balok saat jalur panahnya terbuka. Temukan urutan yang tepat dan kosongkan papan, satu balok demi satu.",
+    "rules_title": "Cara satu ronde berlangsung",
+    "rules": [
+      [
+        "Cari jalur yang terbuka",
+        "Balok bisa keluar jika semua kotak di arah panah hingga tepi papan kosong."
+      ],
+      [
+        "Sambung kombo dalam 0,9 detik",
+        "Keluarkan balok berikutnya dalam 0,9 detik untuk melanjutkan kombo."
+      ],
+      [
+        "Tiga hati, dua petunjuk",
+        "Mengetuk balok yang terhalang mengurangi satu hati. Kamu bisa mengulang papan yang sama secara gratis."
+      ]
+    ],
+    "launch_title": "Dua rekor untuk dikejar",
+    "launch_body": "Mainkan papan 5×5 hingga 9×9 tanpa iklan. Papan peringkat level tertinggi dan kombo harian terbaik sedang disiapkan. Hanya ronde tanpa petunjuk yang dihitung untuk kombo harian."
+  },
+  "play": {
+    "description": "Mulailah dengan balok yang jalurnya terbuka hingga tepi papan sesuai arah panah. Keluarkan semua balok untuk mencapai level berikutnya.",
+    "body": "Versi web sedang disiapkan. Tautan toko akan tersedia saat peluncuran."
+  },
+  "privacy": {
+    "description": "Kebijakan ini menjelaskan bagaimana aplikasi Shoopa dan situs resminya menangani data.",
+    "sections": [
+      [
+        "Situs resmi",
+        "Situs menyimpan pilihan bahasa di browser. Kamu bisa menghapusnya melalui pengaturan browser."
+      ],
+      [
+        "Simpanan cloud dan papan peringkat",
+        "Saat fitur cloud digunakan, layanan platform menyimpan progres dan data papan peringkat. Di iOS, iCloud menyimpan progres, sedangkan Game Center menangani rekor level dan kombo harian. Di Android, Google Play Game menyimpan progres dan data papan peringkat. Pemain lain mungkin dapat melihat nama profil dan skor kamu. Kelola data tersimpan dan visibilitas melalui akun platform."
+      ],
+      [
+        "Pembelian dalam aplikasi",
+        "App Store atau Google Play memproses pembayaran dan menyimpan riwayat pembelian Paket Cahaya Bulan, pembelian opsional yang tidak habis pakai. Aplikasi memeriksa status pembelian untuk membuka atau memulihkan paket. Nomor kartu tidak dikirim ke ipe Studio."
+      ]
+    ]
+  },
+  "terms": {
+    "description": "Ketentuan ini berlaku untuk aplikasi Shoopa dan situs resmi yang disediakan oleh ipe Studio.",
+    "sections": [
+      [
+        "Penggunaan game",
+        "Kamu bisa bermain untuk keperluan pribadi secara gratis dan tanpa iklan. Jangan memanipulasi papan peringkat atau mengganggu pemain lain."
+      ],
+      [
+        "Paket Cahaya Bulan",
+        "Paket ini adalah pembelian opsional dalam aplikasi yang tidak habis pakai dan mengubah tampilan balok serta latar. Harga acuan di AS adalah US$1.99. Harga dan mata uang sebenarnya ditampilkan sebelum membeli. Pulihkan pembelian dengan akun toko asal dan ajukan pengembalian dana ke toko tersebut. Hak konsumen berdasarkan hukum tetap berlaku."
+      ],
+      [
+        "Layanan platform",
+        "Ketentuan platform berlaku untuk simpanan cloud, papan peringkat, dan pembelian. Lihat Kebijakan Privasi untuk mengetahui cara data ditangani."
+      ]
+    ]
+  },
+  "journal": {
+    "description": "Catatan tentang aturan dan pilihan desain di balik Shoopa.",
+    "empty": "Kisah pengembangan pertama sedang disiapkan."
+  }
+}
