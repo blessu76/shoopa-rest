@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-28",
+  "editions": {
+    "ko": {
+      "title": "가장자리에서 첫 수 찾기",
+      "summary": "판 밖을 바라보는 블록부터 눈에 담아 보세요.",
+      "body": [
+        "맨 위 줄에서 위를 향하는 블록은 앞에 다른 칸이 없어요. 그 블록을 뺀 뒤 아래쪽을 살펴보세요. 같은 열에서 위를 향하는 다른 화살표의 길이 열렸을지도 몰라요."
+      ]
+    },
+    "en": {
+      "title": "Find a first move at the edge",
+      "summary": "Look for blocks already pointing off the board.",
+      "body": [
+        "An up arrow in the top row has no squares ahead of it. After removing it, glance down the same column. Another up arrow may now have a clear exit."
+      ]
+    },
+    "de": {
+      "title": "Der erste Zug am Rand",
+      "summary": "Such nach Blöcken, deren Pfeile nach draußen zeigen.",
+      "body": [
+        "Vor einem Pfeil nach oben in der obersten Reihe liegt kein Feld mehr. Nimm ihn heraus und schau in derselben Spalte nach unten. Vielleicht ist jetzt der Weg für einen zweiten Pfeil nach oben frei."
+      ]
+    },
+    "es": {
+      "title": "Busca la primera jugada en el borde",
+      "summary": "Fíjate en los bloques que ya apuntan hacia fuera.",
+      "body": [
+        "Una flecha hacia arriba en la primera fila no tiene casillas delante. Tras quitarla, mira hacia abajo por la misma columna. Puede que otra flecha hacia arriba tenga ahora la salida libre."
+      ]
+    },
+    "fr": {
+      "title": "Trouve ton premier coup au bord",
+      "summary": "Repère les blocs dont la flèche pointe vers l’extérieur.",
+      "body": [
+        "Une flèche vers le haut sur la première ligne n’a aucune case devant elle. Une fois le bloc retiré, regarde plus bas dans la même colonne. Une autre flèche vers le haut a peut-être le champ libre."
+      ]
+    },
+    "id": {
+      "title": "Cari langkah pertama di tepi",
+      "summary": "Cari blok dengan panah yang langsung mengarah ke luar papan.",
+      "body": [
+        "Tidak ada petak di depan panah yang mengarah ke atas pada baris teratas. Setelah mengeluarkannya, lihat ke bawah di kolom yang sama. Mungkin ada panah ke atas lain yang kini bisa keluar."
+      ]
+    },
+    "ja": {
+      "title": "端から最初の一手を探す",
+      "summary": "盤面の外を向いているブロックに注目。",
+      "body": [
+        "一番上の横一列にある上向きの矢印の前には、もうマスがありません。外したら、同じ縦の列を下へ見てみましょう。別の上向きの矢印の道が開いたかもしれません。"
+      ]
+    },
+    "pt-BR": {
+      "title": "Encontre a primeira jogada na borda",
+      "summary": "Procure os blocos com setas que já apontam para fora.",
+      "body": [
+        "Uma seta para cima na primeira fileira não tem casas pela frente. Depois de tirar o bloco, olhe para baixo na mesma coluna. Talvez outra seta para cima já possa sair."
+      ]
+    },
+    "th": {
+      "title": "หาตาแรกจากขอบกระดาน",
+      "summary": "มองหาบล็อกที่ลูกศรชี้ออกนอกกระดาน",
+      "body": [
+        "ลูกศรชี้ขึ้นในแถวบนสุดไม่มีช่องขวางอยู่ข้างหน้า พอเอาออกแล้ว ลองมองลงมาตามคอลัมน์เดิม บางทีลูกศรชี้ขึ้นอีกอันอาจมีทางออกแล้ว"
+      ]
+    },
+    "tr": {
+      "title": "İlk hamleyi kenarda bul",
+      "summary": "Tahtanın dışına bakan blokları ara.",
+      "body": [
+        "En üst sırada yukarı bakan bir okun önünde kare yoktur. Bloğu çıkardıktan sonra aynı sütunda aşağıya bak. Başka bir yukarı okun yolu da açılmış olabilir."
+      ]
+    },
+    "vi": {
+      "title": "Tìm nước đi đầu tiên ở mép bàn",
+      "summary": "Tìm những khối có mũi tên chỉ thẳng ra ngoài.",
+      "body": [
+        "Mũi tên chỉ lên ở hàng trên cùng không có ô nào phía trước. Sau khi lấy khối đó ra, nhìn xuống cùng cột. Có thể một mũi tên hướng lên khác vừa có đường thoát."
+      ]
+    },
+    "zh-Hant": {
+      "title": "從邊緣找第一步",
+      "summary": "找找哪些方塊已經朝向棋盤外。",
+      "body": [
+        "最上排朝上的箭頭前面沒有格子。移除它之後，沿著同一欄向下看看。說不定另一個朝上的箭頭也有路可走了。"
+      ]
+    }
+  }
+}

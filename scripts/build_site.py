@@ -4,7 +4,9 @@ import hashlib
 import json
 import re
 import sys
+from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
@@ -18,6 +20,7 @@ BASE = f"https://{DOMAIN}"
 CONTACT = "ipe.haven@gmail.com"
 PAGES = ("", "play", "journal", "privacy", "terms")
 BOARD = (".u.u.", "llurr", "lldrr", ".ldr.", "..d..")
+SEOUL = ZoneInfo("Asia/Seoul")
 
 
 def route(lang, page=""):
@@ -120,9 +123,14 @@ def store_status(copy):
     </div>'''
 
 
-def detail(title, description, body, kind=""):
+def post_date_markup(publish_date):
+    return f'<time class="post-date" datetime="{publish_date}">{publish_date}</time>'
+
+
+def detail(title, description, body, kind="", publish_date=None):
+    date_markup = f"\n    {post_date_markup(publish_date)}" if publish_date else ""
     return f'''<article class="wrap document {kind}">
-  <header class="document-header">
+  <header class="document-header">{date_markup}
     <h1>{esc(title)}</h1>
     <p>{esc(description)}</p>
   </header>
@@ -172,7 +180,8 @@ def journal_index(lang, copy, posts):
     title = copy["nav"]["journal"]
     description = copy["journal"]["description"]
     cards = "".join(
-        f'<li><a href="{route(lang, "journal/" + slug)}"><h2>{esc(post["editions"][lang]["title"])}</h2>'
+        f'<li><a href="{route(lang, "journal/" + slug)}">{post_date_markup(post["date"])}'
+        f'<h2>{esc(post["editions"][lang]["title"])}</h2>'
         f'<p>{esc(post["editions"][lang]["summary"])}</p></a></li>'
         for slug, post in posts.items()
     )
@@ -185,8 +194,13 @@ def journal_index(lang, copy, posts):
 def journal_post(lang, post, asset_urls):
     edition = post["editions"][lang]
     prose = "".join(f'<p>{esc(paragraph)}</p>' for paragraph in edition["body"])
-    figure = f'<figure><img src="{esc(asset_urls[post["image"]])}" alt="{esc(edition["alt"])}"></figure>'
-    return detail(edition["title"], edition["summary"], '<div class="prose">' + figure + prose + '</div>')
+    figure = ""
+    if image := post.get("image"):
+        figure = f'<figure><img src="{esc(asset_urls[image])}" alt="{esc(edition["alt"])}"></figure>'
+    return detail(
+        edition["title"], edition["summary"], f'<div class="prose">{figure}{prose}</div>',
+        publish_date=post["date"],
+    )
 
 
 def render(lang, page, copy, title, description, body, asset_urls, structured=None):
@@ -227,10 +241,30 @@ def render(lang, page, copy, title, description, body, asset_urls, structured=No
 '''
 
 
-def expected_files():
+def journal_posts():
+    by_date = {}
+    for path in sorted((ROOT / "content/journal").glob("*.json")):
+        post = read_json(path)
+        publish_date = post.get("date", "")
+        if not isinstance(publish_date, str) or not re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", publish_date):
+            raise ValueError(f"{path.name}: 발행일 date에 YYYY-MM-DD가 필요합니다.")
+        try:
+            day = date.fromisoformat(publish_date)
+        except ValueError as error:
+            raise ValueError(f"{path.name}: 발행일 {publish_date}가 유효하지 않습니다.") from error
+        if day in by_date:
+            earlier_slug, _ = by_date[day]
+            raise ValueError(f"{publish_date}: {earlier_slug}.json과 {path.name}의 발행일이 겹칩니다.")
+        by_date[day] = (path.stem, post)
+    return dict(by_date[day] for day in sorted(by_date, reverse=True))
+
+
+def expected_files(as_of=None):
+    if as_of is None:
+        as_of = datetime.now(SEOUL).date()
     copies = {lang: read_json(ROOT / "content" / f"{lang}.json") for lang in languages.SUPPORTED}
-    posts = {path.stem: read_json(path) for path in sorted((ROOT / "content/journal").glob("*.json"))}
-    editions = {slug: post_editions(slug, post) for slug, post in posts.items()}
+    posts = journal_posts()
+    editions = {slug: post_editions(slug, post) for slug, post in posts.items() if post["date"] <= as_of.isoformat()}
     published = {slug: posts[slug] for slug in journal.publishable(editions)}
     loaded_assets = {
         name: (ROOT / "assets" / name).read_bytes()
@@ -241,8 +275,8 @@ def expected_files():
         "jua-logo.woff", f'jua-logo.woff?v={hashlib.sha256(loaded_assets["jua-logo.woff"]).hexdigest()[:12]}'
     ).encode("utf-8")
     for post in published.values():
-        image = post["image"]
-        loaded_assets[image] = (ROOT / "assets" / image).read_bytes()
+        if image := post.get("image"):
+            loaded_assets[image] = (ROOT / "assets" / image).read_bytes()
     files = {f"assets/{name}": data for name, data in loaded_assets.items()}
     asset_urls = {
         name: f"/assets/{name}?v={hashlib.sha256(data).hexdigest()[:12]}"
@@ -264,9 +298,10 @@ def expected_files():
         for slug, post in published.items():
             page = "journal/" + slug
             edition = post["editions"][lang]
+            image = post.get("image")
             structured = journal.blogposting(
-                editions[slug], lang, description=edition["summary"],
-                publisher=seo.org_ref(), image=BASE + asset_urls[post["image"]],
+                editions[slug], lang, date_published=post["date"], description=edition["summary"],
+                publisher=seo.org_ref(), image=BASE + asset_urls[image] if image else None,
             )
             files[route(lang, page)[1:] + "index.html"] = render(
                 lang, page, copy, edition["title"], edition["summary"],
@@ -291,8 +326,9 @@ def expected_files():
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--date", type=date.fromisoformat, default=datetime.now(SEOUL).date())
     args = parser.parse_args()
-    files = expected_files()
+    files = expected_files(args.date)
     stale = {
         path.relative_to(PUBLIC).as_posix()
         for path in PUBLIC.rglob("*") if path.is_file()
@@ -313,7 +349,7 @@ def main():
             path.write_bytes(data)
         for name in stale:
             (PUBLIC / name).unlink()
-    print(f"공개 파일 {len(files)}개 {'검증' if args.check else '생성'}")
+    print(f"{args.date} KST 공개 파일 {len(files)}개 {'검증' if args.check else '생성'}")
     return 0
 
 

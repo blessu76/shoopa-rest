@@ -2,6 +2,8 @@ name: Deploy Shoopa to GitHub Pages
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '17 15 * * *'  # 매일 00:17 KST
 
 permissions:
   contents: read
@@ -20,6 +22,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: 한국시간 기준으로 생성 및 검증
+        run: |
+          journal_date=$(TZ=Asia/Seoul date +%F)
+          python3 scripts/build_site.py --date "$journal_date"
+          bash scripts/check.sh --date "$journal_date"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

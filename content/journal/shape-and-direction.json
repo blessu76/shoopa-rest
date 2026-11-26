@@ -1,0 +1,89 @@
+{
+  "date": "2026-12-08",
+  "editions": {
+    "ko": {
+      "title": "모양은 같아도 길은 달라요",
+      "summary": "같은 칸을 채우고 화살표 하나의 방향만 바꿔 보세요.",
+      "body": [
+        "종이에 네 칸짜리 사각형을 그리고 각 칸에 화살표를 넣어 보세요. 모서리에서 바깥을 보던 한 화살표를 안쪽으로 돌리면 이웃 블록이 먼저 빠져야 할 수도 있어요. 그림은 그대로인데 첫 수가 달라지는 순간이에요."
+      ]
+    },
+    "en": {
+      "title": "Same shape, different routes",
+      "summary": "Fill the same squares and turn just one arrow.",
+      "body": [
+        "Draw a square of four cells on paper and add an arrow to each. Turn an outward arrow inward, and the block next to it may have to leave first. The outline stays put while the opening moves change."
+      ]
+    },
+    "de": {
+      "title": "Gleiche Form, andere Wege",
+      "summary": "Beleg dieselben Felder und dreh nur einen Pfeil.",
+      "body": [
+        "Zeichne ein Quadrat aus vier Feldern und setz in jedes einen Pfeil. Dreh einen Pfeil von außen nach innen. Vielleicht muss der Nachbarblock jetzt zuerst raus. Der Umriss bleibt gleich, doch die ersten Züge ändern sich."
+      ]
+    },
+    "es": {
+      "title": "Misma forma, otros caminos",
+      "summary": "Ocupa las mismas casillas y gira una sola flecha.",
+      "body": [
+        "Dibuja un cuadrado de cuatro casillas y coloca una flecha en cada una. Si giras hacia dentro una flecha que apuntaba hacia fuera, puede que el bloque vecino tenga que salir primero. El contorno sigue igual y las jugadas iniciales cambian."
+      ]
+    },
+    "fr": {
+      "title": "Même forme, autres chemins",
+      "summary": "Remplis les mêmes cases et ne tourne qu’une flèche.",
+      "body": [
+        "Dessine un carré de quatre cases et ajoute une flèche à chacune. Oriente vers l’intérieur une flèche qui pointait dehors. Le bloc voisin devra peut-être sortir d’abord. Le contour reste identique tandis que les premiers coups changent."
+      ]
+    },
+    "id": {
+      "title": "Bentuk sama, jalur berbeda",
+      "summary": "Isi petak yang sama lalu putar satu panah saja.",
+      "body": [
+        "Gambar persegi berisi empat petak dan beri panah pada tiap petak. Putar satu panah dari arah luar ke dalam, dan blok di sebelahnya mungkin harus keluar lebih dulu. Bentuknya tetap sama, tetapi langkah awalnya berubah."
+      ]
+    },
+    "ja": {
+      "title": "同じ形でも、道は変わる",
+      "summary": "同じマスを埋めて、矢印を一つだけ回してみましょう。",
+      "body": [
+        "紙に四マスの正方形を描き、それぞれに矢印を入れます。外向きの矢印を内向きに変えると、隣のブロックを先に外す必要が出てきます。輪郭は同じまま、最初の一手が変わる瞬間です。"
+      ]
+    },
+    "pt-BR": {
+      "title": "Mesma forma, caminhos diferentes",
+      "summary": "Preencha as mesmas casas e gire só uma seta.",
+      "body": [
+        "Desenhe um quadrado de quatro casas e coloque uma seta em cada uma. Vire para dentro uma seta que apontava para fora. Talvez o bloco vizinho precise sair primeiro. O contorno fica igual e as jogadas iniciais mudam."
+      ]
+    },
+    "th": {
+      "title": "รูปเดิม ทางเดินเปลี่ยน",
+      "summary": "ใช้ช่องเดิมแล้วลองหมุนลูกศรเพียงอันเดียว",
+      "body": [
+        "วาดสี่เหลี่ยมสี่ช่องบนกระดาษแล้วใส่ลูกศรในแต่ละช่อง ลองหมุนลูกศรที่เคยชี้ออกให้ชี้เข้าด้านใน บล็อกข้าง ๆ อาจต้องออกก่อน รูปร่างยังเหมือนเดิม แต่ตาแรกที่เล่นได้เปลี่ยนไป"
+      ]
+    },
+    "tr": {
+      "title": "Aynı şekil, farklı yollar",
+      "summary": "Aynı kareleri doldur ve yalnızca bir oku çevir.",
+      "body": [
+        "Kâğıda dört karelik bir şekil çiz ve her kareye bir ok koy. Dışarı bakan bir oku içeri çevirince yanındaki bloğun önce çıkması gerekebilir. Şekil aynı kalırken ilk hamleler değişir."
+      ]
+    },
+    "vi": {
+      "title": "Cùng hình, khác đường",
+      "summary": "Giữ nguyên các ô đã tô rồi xoay chỉ một mũi tên.",
+      "body": [
+        "Vẽ một hình vuông gồm bốn ô rồi đặt một mũi tên vào mỗi ô. Xoay một mũi tên từ hướng ra ngoài sang hướng vào trong, khối bên cạnh có thể phải đi trước. Hình dạng vẫn vậy, còn các nước mở đầu thay đổi."
+      ]
+    },
+    "zh-Hant": {
+      "title": "形狀一樣，路卻不同",
+      "summary": "填滿同樣的格子，只轉動一個箭頭。",
+      "body": [
+        "在紙上畫四格正方形，每格放一個箭頭。把原先朝外的箭頭轉向內側，相鄰方塊可能就得先離開。外形沒變，開局可走的步數卻變了。"
+      ]
+    }
+  }
+}

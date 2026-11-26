@@ -1,0 +1,89 @@
+{
+  "date": "2026-12-09",
+  "editions": {
+    "ko": {
+      "title": "두 화살표가 마주 보면",
+      "summary": "두 블록만 그려도 길이 막히는 이유가 보여요.",
+      "body": [
+        "종이에 두 칸을 나란히 그리고 서로 마주 보는 화살표를 넣어 보세요. 둘 다 상대 블록이 빠지기를 기다려야 해요. 한 화살표를 바깥으로 돌리면 나가는 순서가 생깁니다. 판을 설계할 때 이런 관계를 먼저 살펴보면 좋아요."
+      ]
+    },
+    "en": {
+      "title": "When two arrows face each other",
+      "summary": "Two squares on paper are enough to see what makes a path stick.",
+      "body": [
+        "Draw two squares side by side and put arrows in them facing each other. Each block is waiting for the other to leave. Turn one arrow outward and you get an exit order. It’s a handy relationship to check when designing a board."
+      ]
+    },
+    "de": {
+      "title": "Wenn zwei Pfeile einander ansehen",
+      "summary": "Zwei Felder auf Papier zeigen schon, wie Wege blockiert werden.",
+      "body": [
+        "Zeichne zwei Felder nebeneinander und lass ihre Pfeile aufeinander zeigen. Jeder Block wartet darauf, dass der andere verschwindet. Dreh einen Pfeil nach außen und es ergibt sich eine Reihenfolge. Beim Entwerfen eines Feldes lohnt sich dieser Blick auf die Blockaden."
+      ]
+    },
+    "es": {
+      "title": "Cuando dos flechas se miran",
+      "summary": "Dos casillas en papel bastan para ver por qué se atasca un camino.",
+      "body": [
+        "Dibuja dos casillas juntas y pon en ellas flechas que se miren. Cada bloque espera a que salga el otro. Gira una flecha hacia fuera y aparecerá un orden de salida. Es una relación que vale la pena revisar al diseñar un tablero."
+      ]
+    },
+    "fr": {
+      "title": "Quand deux flèches se font face",
+      "summary": "Deux cases sur une feuille suffisent à voir ce qui bloque un trajet.",
+      "body": [
+        "Dessine deux cases côte à côte et fais pointer leurs flèches l’une vers l’autre. Chaque bloc attend que l’autre sorte. Tourne une flèche vers l’extérieur pour faire apparaître un ordre de sortie. C’est un bon point à vérifier quand on conçoit un plateau."
+      ]
+    },
+    "id": {
+      "title": "Saat dua panah saling berhadapan",
+      "summary": "Dua petak di kertas cukup untuk melihat kenapa jalur bisa buntu.",
+      "body": [
+        "Gambar dua petak berdampingan dan beri panah yang saling menghadap. Setiap blok menunggu blok lainnya keluar. Putar salah satu panah ke luar dan urutan keluarnya pun terlihat. Hubungan seperti ini patut diperiksa saat merancang papan."
+      ]
+    },
+    "ja": {
+      "title": "二つの矢印が向き合うと",
+      "summary": "二マス描くだけで、道が詰まる理由が見えてきます。",
+      "body": [
+        "二マスを横に並べ、互いに向き合う矢印を入れます。どちらのブロックも、相手が出るまで待つことになります。片方を外向きに回すと、出る順番ができます。盤面を考えるときに見ておきたい関係です。"
+      ]
+    },
+    "pt-BR": {
+      "title": "Quando duas setas ficam frente a frente",
+      "summary": "Duas casas no papel bastam para mostrar por que um caminho trava.",
+      "body": [
+        "Desenhe duas casas lado a lado e coloque setas apontando uma para a outra. Cada bloco espera o outro sair. Vire uma seta para fora e surge uma ordem de saída. Vale observar esse tipo de relação ao montar um tabuleiro."
+      ]
+    },
+    "th": {
+      "title": "เมื่อลูกศรสองอันชี้เข้าหากัน",
+      "summary": "วาดแค่สองช่องก็เห็นแล้วว่าทางตันเกิดขึ้นได้อย่างไร",
+      "body": [
+        "วาดสองช่องติดกันแล้วใส่ลูกศรชี้เข้าหากัน แต่ละบล็อกต้องรอให้อีกอันออกก่อน ลองหมุนลูกศรอันหนึ่งให้ชี้ออก ก็จะเห็นลำดับทางออก จุดแบบนี้ควรสังเกตตอนออกแบบกระดาน"
+      ]
+    },
+    "tr": {
+      "title": "İki ok birbirine bakınca",
+      "summary": "Yolun neden kapandığını görmek için kâğıtta iki kare yeter.",
+      "body": [
+        "Yan yana iki kare çiz ve içlerine birbirine bakan oklar koy. Her blok diğerinin çıkmasını bekler. Bir oku dışarı çevirince çıkış sırası belli olur. Tahta tasarlarken bu ilişkiye bakmak işe yarar."
+      ]
+    },
+    "vi": {
+      "title": "Khi hai mũi tên đối mặt",
+      "summary": "Chỉ cần hai ô trên giấy là có thể thấy vì sao đường bị tắc.",
+      "body": [
+        "Vẽ hai ô cạnh nhau và đặt hai mũi tên hướng vào nhau. Mỗi khối phải chờ khối kia rời đi. Xoay một mũi tên ra ngoài, thứ tự thoát ra sẽ hiện rõ. Đây là điều đáng để ý khi thiết kế bàn chơi."
+      ]
+    },
+    "zh-Hant": {
+      "title": "兩個箭頭相向時",
+      "summary": "只要在紙上畫兩格，就能看出路為什麼會卡住。",
+      "body": [
+        "畫兩個相鄰的格子，讓裡面的箭頭彼此相對。每個方塊都等著另一個先離開。把其中一個箭頭轉向外側，就有了離開的順序。設計棋盤時，可以先看看有沒有這樣的關係。"
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2026-12-03",
+  "editions": {
+    "ko": {
+      "title": "같은 판, 다른 첫 수",
+      "summary": "다시 도전할 때는 앞서 막힌 길부터 떠올려 보세요.",
+      "body": [
+        "하트를 다 잃으면 같은 판에 다시 도전할 수 있어요. 이번에는 막혔던 길의 끝을 먼저 살펴보세요. 앞서 걸렸던 블록보다, 그 블록의 길을 여는 다른 화살표에서 시작해도 좋아요."
+      ]
+    },
+    "en": {
+      "title": "Same board, fresh start",
+      "summary": "On a retry, recall where you got stuck.",
+      "body": [
+        "When you run out of hearts, you can try the same board again. Look first at the end of the path that gave you trouble. A different arrow may open the way this time."
+      ]
+    },
+    "de": {
+      "title": "Gleiches Feld, neuer Anfang",
+      "summary": "Denk beim nächsten Versuch daran, wo du feststecktest.",
+      "body": [
+        "Gehen dir die Herzen aus, kannst du dasselbe Feld erneut spielen. Schau zuerst ans Ende des Wegs, der dir Probleme gemacht hat. Vielleicht öffnet diesmal ein anderer Pfeil den Weg."
+      ]
+    },
+    "es": {
+      "title": "Mismo tablero, nuevo comienzo",
+      "summary": "Al reintentar, recuerda dónde te atascaste.",
+      "body": [
+        "Si te quedas sin corazones, puedes volver a jugar en el mismo tablero. Mira primero el final del camino que se te complicó. Quizá esta vez puedas abrirlo con otra flecha."
+      ]
+    },
+    "fr": {
+      "title": "Même plateau, nouveau départ",
+      "summary": "Au nouvel essai, repense à l’endroit où tu as buté.",
+      "body": [
+        "Quand il ne reste plus de cœurs, tu peux rejouer le même plateau. Regarde d’abord au bout du trajet qui t’a posé problème. Une autre flèche pourrait ouvrir le passage cette fois."
+      ]
+    },
+    "id": {
+      "title": "Papan yang sama, awal yang baru",
+      "summary": "Saat mencoba lagi, ingat di mana kamu sempat buntu.",
+      "body": [
+        "Kalau hati habis, kamu bisa mencoba lagi di papan yang sama. Lihat dulu ujung jalur yang menyulitkanmu tadi. Kali ini, panah lain mungkin bisa membuka jalannya."
+      ]
+    },
+    "ja": {
+      "title": "同じ盤面で、別の一手から",
+      "summary": "再挑戦では、詰まった道を思い出してみましょう。",
+      "body": [
+        "ハートがなくなったら、同じ盤面に再挑戦できます。まずは詰まった道の先を見てみましょう。今度は別の矢印から外すと道が開くかもしれません。"
+      ]
+    },
+    "pt-BR": {
+      "title": "Mesmo tabuleiro, novo começo",
+      "summary": "Na nova tentativa, lembre onde você travou.",
+      "body": [
+        "Quando os corações acabam, você pode tentar o mesmo tabuleiro outra vez. Olhe primeiro para o fim do caminho que deu trabalho. Talvez outra seta abra passagem desta vez."
+      ]
+    },
+    "th": {
+      "title": "กระดานเดิม เริ่มใหม่ได้",
+      "summary": "ตอนลองอีกครั้ง ให้นึกถึงจุดที่ติดอยู่",
+      "body": [
+        "เมื่อหัวใจหมด คุณลองเล่นกระดานเดิมได้อีกครั้ง ลองดูปลายทางที่ไปต่อไม่ได้ก่อน คราวนี้ลูกศรอีกอันอาจช่วยเปิดทางได้"
+      ]
+    },
+    "tr": {
+      "title": "Aynı tahta, yeni başlangıç",
+      "summary": "Yeniden denerken nerede takıldığını hatırla.",
+      "body": [
+        "Kalplerin biterse aynı tahtayı yeniden deneyebilirsin. Önce seni zorlayan yolun sonuna bak. Bu sefer başka bir ok yolu açabilir."
+      ]
+    },
+    "vi": {
+      "title": "Cùng bàn chơi, khởi đầu mới",
+      "summary": "Khi thử lại, hãy nhớ chỗ bạn bị mắc.",
+      "body": [
+        "Khi hết tim, bạn có thể chơi lại cùng một bàn. Hãy nhìn về cuối đường đã gây khó khăn cho bạn trước. Lần này một mũi tên khác có thể mở lối."
+      ]
+    },
+    "zh-Hant": {
+      "title": "同一個棋盤，換個起點",
+      "summary": "重試時，回想一下上次卡在哪裡。",
+      "body": [
+        "愛心用完後，你可以再挑戰同一個棋盤。先看看當時卡住的路通往哪裡。這次也許可以從另一個箭頭開始，把那條路打開。"
+      ]
+    }
+  }
+}

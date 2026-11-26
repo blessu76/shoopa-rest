@@ -1,0 +1,89 @@
+{
+  "date": "2026-12-05",
+  "editions": {
+    "ko": {
+      "title": "가운데가 빽빽할 때",
+      "summary": "판을 한꺼번에 읽기 어려우면 한 줄만 골라 보세요.",
+      "body": [
+        "가운데 블록이 많으면 빈칸 하나도 잘 안 보일 수 있어요. 가로줄 하나에서 양쪽으로 나갈 화살표를 찾고, 눈에 띄는 길이 없다면 그 줄과 만나는 세로줄을 살펴보세요."
+      ]
+    },
+    "en": {
+      "title": "When the middle gets crowded",
+      "summary": "Pick one row when the whole board is hard to read.",
+      "body": [
+        "In a packed center, even an empty square can be easy to miss. Choose a row and look for arrows that can leave at either end. If you don’t spot a way out, check the columns that cross it."
+      ]
+    },
+    "de": {
+      "title": "Wenn es in der Mitte eng wird",
+      "summary": "Wähl eine Reihe, wenn das ganze Feld unübersichtlich ist.",
+      "body": [
+        "In einer vollen Mitte übersieht man leicht ein freies Feld. Such in einer Reihe nach Pfeilen, die links oder rechts hinauskommen. Findest du keinen, prüf die Spalten, die diese Reihe kreuzen."
+      ]
+    },
+    "es": {
+      "title": "Cuando el centro se llena",
+      "summary": "Si cuesta leer todo el tablero, elige una sola fila.",
+      "body": [
+        "En un centro lleno, es fácil pasar por alto una casilla vacía. Busca en una fila flechas que puedan salir por cualquiera de sus extremos. Si no ves salida, revisa las columnas que la cruzan."
+      ]
+    },
+    "fr": {
+      "title": "Quand le centre est encombré",
+      "summary": "Choisis une ligne si le plateau est difficile à lire d’un coup.",
+      "body": [
+        "Au milieu des blocs, une case vide passe vite inaperçue. Cherche sur une ligne une flèche qui peut sortir à gauche ou à droite. Si tu ne vois aucune issue, regarde les colonnes qui coupent cette ligne."
+      ]
+    },
+    "id": {
+      "title": "Saat bagian tengah penuh",
+      "summary": "Pilih satu baris jika papan sulit dibaca sekaligus.",
+      "body": [
+        "Di tengah yang padat, petak kosong pun mudah luput dari pandangan. Pilih satu baris dan cari panah yang bisa keluar di kiri atau kanan. Jika belum terlihat, periksa kolom yang memotong baris itu."
+      ]
+    },
+    "ja": {
+      "title": "中央がぎっしり詰まったら",
+      "summary": "盤面全体が見づらいときは、横一列に絞ってみましょう。",
+      "body": [
+        "中央にブロックが集まると、空きマスも見落としがちです。横一列を選び、左右どちらかに抜ける矢印を探します。見つからなければ、その列を横切る縦の列を見てみましょう。"
+      ]
+    },
+    "pt-BR": {
+      "title": "Quando o centro fica cheio",
+      "summary": "Escolha uma fileira se estiver difícil ler o tabuleiro inteiro.",
+      "body": [
+        "Num centro apertado, até uma casa vazia pode passar despercebida. Procure numa fileira por setas que possam sair pelas pontas. Se não enxergar nenhuma, confira as colunas que cruzam essa fileira."
+      ]
+    },
+    "th": {
+      "title": "เมื่อกลางกระดานแน่น",
+      "summary": "ถ้ามองทั้งกระดานยาก ลองเลือกดูทีละแถว",
+      "body": [
+        "ตรงกลางที่มีบล็อกเยอะอาจมองข้ามช่องว่างได้ง่าย ลองหาในแถวเดียวว่ามีลูกศรที่ออกทางซ้ายหรือขวาได้ไหม ถ้ายังไม่เห็นทาง ให้ดูคอลัมน์ที่ตัดกับแถวนั้น"
+      ]
+    },
+    "tr": {
+      "title": "Orta kısım kalabalıklaşınca",
+      "summary": "Tahtanın tamamını okumak zorsa tek bir satır seç.",
+      "body": [
+        "Orta kısım doluyken boş bir kareyi bile gözden kaçırabilirsin. Bir satır seç ve iki ucundan da çıkış arayıp okları kontrol et. Çıkış görmezsen o satırı kesen sütunlara bak."
+      ]
+    },
+    "vi": {
+      "title": "Khi giữa bàn chật kín",
+      "summary": "Nếu khó nhìn cả bàn, hãy chọn một hàng để xem trước.",
+      "body": [
+        "Ở giữa dày đặc, ngay cả ô trống cũng dễ bị bỏ sót. Chọn một hàng và tìm mũi tên có thể thoát ra ở một trong hai đầu. Nếu chưa thấy lối, hãy xem các cột cắt qua hàng đó."
+      ]
+    },
+    "zh-Hant": {
+      "title": "棋盤中央擠滿時",
+      "summary": "整盤看不清楚時，先挑一個橫列。",
+      "body": [
+        "中央很擠時，連空格都容易漏看。先在一個橫列找找，有沒有箭頭能從兩端之一出去。找不到出口的話，再看看穿過那一列的直欄。"
+      ]
+    }
+  }
+}

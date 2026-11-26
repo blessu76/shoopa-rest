@@ -297,6 +297,7 @@ p { text-wrap: pretty; }
 .prose img { border-radius: 1rem; margin-inline: auto; }
 .post-list a { display: block; margin-block-end: 1rem; text-decoration: none; }
 .post-list a:hover h2 { text-decoration: underline; text-underline-offset: .15em; }
+.post-date { display: block; margin-block-end: .35rem; color: var(--muted); font-size: .875rem; }
 .site-footer { border-top: 1px solid var(--line); }
 .footer-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; padding-block: 1rem; }
 .site-footer nav { justify-content: flex-start; }

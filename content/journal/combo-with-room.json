@@ -1,0 +1,89 @@
+{
+  "date": "2026-12-01",
+  "editions": {
+    "ko": {
+      "title": "콤보를 이을 여유",
+      "summary": "두 길이 확실히 보일 때 연속으로 빼 보세요.",
+      "body": [
+        "블록을 뺀 뒤 0.9초 안에 다음 블록을 빼면 콤보가 이어져요. 두 화살표의 길을 먼저 눈으로 확인해 두면 짧은 시간 안에 손가락을 옮기기 한결 편해요."
+      ]
+    },
+    "en": {
+      "title": "Make room for a combo",
+      "summary": "Try two quick taps once you’ve checked both paths.",
+      "body": [
+        "Remove another block within 0.9 seconds to keep a combo going. Check both routes with your eyes first, and it’s easier to move your finger in time."
+      ]
+    },
+    "de": {
+      "title": "Platz für eine Kombo",
+      "summary": "Wenn beide Wege frei sind, probier zwei schnelle Züge.",
+      "body": [
+        "Entfernst du innerhalb von 0,9 Sekunden einen weiteren Block, läuft die Kombo weiter. Prüfe beide Wege vorher mit den Augen. So fällt es dir leichter, schnell genug zu tippen."
+      ]
+    },
+    "es": {
+      "title": "Prepara el combo",
+      "summary": "Prueba dos toques seguidos cuando tengas claras las dos salidas.",
+      "body": [
+        "Si retiras otro bloque en los 0,9 segundos siguientes, el combo continúa. Revisa primero ambos caminos con la vista y te será más fácil mover el dedo a tiempo."
+      ]
+    },
+    "fr": {
+      "title": "Prépare ton combo",
+      "summary": "Essaie deux gestes rapides quand tu as repéré les deux trajets.",
+      "body": [
+        "Retire un autre bloc dans les 0,9 seconde pour prolonger le combo. Repère d’abord les deux passages des yeux pour déplacer ton doigt à temps plus facilement."
+      ]
+    },
+    "id": {
+      "title": "Siapkan ruang untuk kombo",
+      "summary": "Coba dua ketukan cepat setelah memeriksa kedua jalurnya.",
+      "body": [
+        "Keluarkan blok berikutnya dalam 0,9 detik agar kombo berlanjut. Periksa kedua jalur dengan mata lebih dulu supaya jarimu lebih mudah bergerak tepat waktu."
+      ]
+    },
+    "ja": {
+      "title": "コンボの下準備",
+      "summary": "二つの道を確かめてから、続けてタップ。",
+      "body": [
+        "ブロックを外してから0.9秒以内に次を外すと、コンボが続きます。先に二つの道を目で追っておくと、短い時間でも次のブロックに指を運びやすくなります。"
+      ]
+    },
+    "pt-BR": {
+      "title": "Prepare o combo",
+      "summary": "Experimente dois toques rápidos quando os caminhos estiverem claros.",
+      "body": [
+        "Tire outro bloco em até 0,9 segundo para manter o combo. Confira os dois trajetos com os olhos primeiro. Assim fica mais fácil mover o dedo a tempo."
+      ]
+    },
+    "th": {
+      "title": "เตรียมทางให้คอมโบ",
+      "summary": "พอเห็นทางชัดทั้งสองเส้น ลองแตะติดกันสองครั้ง",
+      "body": [
+        "เอาบล็อกถัดไปออกภายใน 0.9 วินาทีเพื่อรักษาคอมโบ ลองไล่ดูทั้งสองทางด้วยสายตาก่อน จะได้ขยับนิ้วไปทันง่ายขึ้น"
+      ]
+    },
+    "tr": {
+      "title": "Kombo için yer aç",
+      "summary": "İki yol da açıksa peş peşe iki kez dokunmayı dene.",
+      "body": [
+        "Komboyu sürdürmek için 0,9 saniye içinde bir blok daha çıkar. Önce iki yolu gözünle kontrol edersen parmağını zamanında hareket ettirmek kolaylaşır."
+      ]
+    },
+    "vi": {
+      "title": "Chuẩn bị cho một chuỗi combo",
+      "summary": "Thử chạm hai lần liên tiếp sau khi đã kiểm tra cả hai đường.",
+      "body": [
+        "Lấy thêm một khối trong vòng 0,9 giây để giữ combo. Dò cả hai đường bằng mắt trước sẽ giúp bạn kịp đưa ngón tay sang khối tiếp theo."
+      ]
+    },
+    "zh-Hant": {
+      "title": "替連擊做好準備",
+      "summary": "先確認兩條路，再試著連點兩次。",
+      "body": [
+        "移除方塊後，在 0.9 秒內再移除一個，連擊就會延續。先用眼睛確認兩條路，短短一瞬間也比較容易把手指移到下一格。"
+      ]
+    }
+  }
+}

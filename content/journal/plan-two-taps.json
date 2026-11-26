@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-30",
+  "editions": {
+    "ko": {
+      "title": "두 번의 탭을 미리 보기",
+      "summary": "첫 블록이 빠진 다음의 모습을 떠올려 보세요.",
+      "body": [
+        "지금 뺄 수 있는 블록을 하나 고르고, 그 칸을 빈칸으로 상상해 보세요. 그때 빠질 블록까지 보이면 두 번째 탭에서 다시 판을 훑을 필요가 줄어들어요."
+      ]
+    },
+    "en": {
+      "title": "Plan two taps ahead",
+      "summary": "Picture the board after the first block leaves.",
+      "body": [
+        "Pick one block you can remove now and imagine its square empty. If you can spot the next exit, you’ll spend less time scanning the board again after your first tap."
+      ]
+    },
+    "de": {
+      "title": "Zwei Züge im Voraus",
+      "summary": "Stell dir vor, wie das Feld nach dem ersten Zug aussieht.",
+      "body": [
+        "Such dir einen Block aus, den du jetzt entfernen kannst, und stell dir sein Feld leer vor. Wenn du schon den nächsten Ausgang siehst, musst du nach dem ersten Tippen weniger suchen."
+      ]
+    },
+    "es": {
+      "title": "Piensa en dos toques",
+      "summary": "Imagina cómo quedará el tablero cuando salga el primer bloque.",
+      "body": [
+        "Elige un bloque que puedas quitar y visualiza su casilla vacía. Si ves qué bloque podrá salir después, pasarás menos tiempo buscando tras el primer toque."
+      ]
+    },
+    "fr": {
+      "title": "Prévois deux coups",
+      "summary": "Imagine le plateau après la sortie du premier bloc.",
+      "body": [
+        "Choisis un bloc que tu peux retirer et imagine sa case vide. Si tu repères déjà la prochaine sortie, tu passeras moins de temps à balayer le plateau après le premier geste."
+      ]
+    },
+    "id": {
+      "title": "Rencanakan dua ketukan",
+      "summary": "Bayangkan papan setelah blok pertama keluar.",
+      "body": [
+        "Pilih satu blok yang bisa dikeluarkan sekarang dan bayangkan petaknya kosong. Jika sudah melihat blok berikutnya yang bisa keluar, kamu tak perlu lama mencari lagi setelah ketukan pertama."
+      ]
+    },
+    "ja": {
+      "title": "二手先まで思い描く",
+      "summary": "一つ目のブロックが抜けた盤面を想像してみましょう。",
+      "body": [
+        "今外せるブロックを一つ選び、そのマスが空いたところを思い浮かべます。次に抜けるブロックが見えれば、最初のタップのあとで探し直す時間が減ります。"
+      ]
+    },
+    "pt-BR": {
+      "title": "Planeje dois toques",
+      "summary": "Imagine o tabuleiro depois que o primeiro bloco sair.",
+      "body": [
+        "Escolha um bloco que já pode sair e imagine a casa dele vazia. Se você enxergar a próxima saída, vai gastar menos tempo procurando de novo depois do primeiro toque."
+      ]
+    },
+    "th": {
+      "title": "คิดเผื่อไว้สองจังหวะ",
+      "summary": "นึกภาพกระดานหลังจากบล็อกแรกออกไป",
+      "body": [
+        "เลือกบล็อกที่เอาออกได้ตอนนี้สักก้อน แล้วนึกว่าช่องนั้นว่างอยู่ ถ้าเห็นแล้วว่าก้อนไหนออกต่อได้ หลังแตะครั้งแรกก็ไม่ต้องเสียเวลามองหานาน"
+      ]
+    },
+    "tr": {
+      "title": "İki dokunuşu önceden düşün",
+      "summary": "İlk blok çıktıktan sonra tahtanın nasıl görüneceğini hayal et.",
+      "body": [
+        "Şimdi çıkarabileceğin bir blok seç ve karesini boş düşün. Sırada hangi bloğun çıkabileceğini görürsen ilk dokunuştan sonra tahtayı yeniden taramak daha kısa sürer."
+      ]
+    },
+    "vi": {
+      "title": "Tính trước hai lần chạm",
+      "summary": "Hình dung bàn chơi khi khối đầu tiên đã rời đi.",
+      "body": [
+        "Chọn một khối có thể lấy ra và tưởng tượng ô của nó đã trống. Nếu thấy luôn khối nào sẽ đi tiếp, bạn sẽ mất ít thời gian tìm lại sau lần chạm đầu tiên."
+      ]
+    },
+    "zh-Hant": {
+      "title": "先想好兩次點擊",
+      "summary": "想想第一個方塊離開後的棋盤。",
+      "body": [
+        "挑一個現在就能移除的方塊，想像它所在的格子已經空了。若能先找到下一個可移除的方塊，點完第一下就能少花些時間找路。"
+      ]
+    }
+  }
+}
