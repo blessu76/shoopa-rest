@@ -24,25 +24,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - name: 웹킷 고정 커밋 확인
-        id: web-kit
-        run: echo "commit=$(sed -n 's/^commit=//p' vendor/ipe_web_kit.lock)" >> "$GITHUB_OUTPUT"
-      - name: 비공개 웹킷 체크아웃
-        uses: actions/checkout@v4
+      - name: 비공개 웹킷 설치(잠금 파일 기준)
+        uses: ./.github/actions/ipe-web-kit
         with:
-          repository: blessu76/ipe_web_kit
           ssh-key: ${{ secrets.IPE_WEB_KIT_DEPLOY_KEY }}
-          ref: ${{ steps.web-kit.outputs.commit }}
-          fetch-depth: 0
-          fetch-tags: true
-          path: vendor/_kit_src
-          persist-credentials: false
-      - name: 잠금 파일에 맞춰 웹킷 설치
-        run: python3 scripts/kit_lock.py sync --kit vendor/_kit_src
       - name: 한국시간 기준으로 생성 및 검증
         run: |
           journal_date=$(TZ=Asia/Seoul date +%F)
-          python3 scripts/build_site.py --date "$journal_date"
+          python3 scripts/build_site.py --date "$journal_date"   # build_meta.json 도 이 날짜로 바뀐다
           bash scripts/check.sh --date "$journal_date"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

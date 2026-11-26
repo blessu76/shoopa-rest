@@ -1,7 +1,11 @@
 import hashlib
+import io
 import json
+import shutil
 import sys
+import tempfile
 import unittest
+from contextlib import redirect_stderr, redirect_stdout
 from datetime import date
 from html.parser import HTMLParser
 from pathlib import Path
@@ -151,6 +155,62 @@ class SiteTest(unittest.TestCase):
         metadata = on_date["journal/" + slug + "/index.html"].decode()
         jsonld = metadata.split('<script type="application/ld+json">', 1)[1].split("</script>", 1)[0]
         self.assertEqual(json.loads(jsonld)["datePublished"], due.isoformat())
+
+
+def run_main(*argv, today):
+    out, err = io.StringIO(), io.StringIO()
+    with patch.object(site, "today_kst", return_value=today), redirect_stdout(out), redirect_stderr(err):
+        code = site.main(list(argv))
+    return code, out.getvalue() + err.getvalue()
+
+
+class BuildDateTest(unittest.TestCase):
+    """검사는 build_meta.json 의 날짜로 비교한다 — 날이 바뀌어도 커밋된 public/ 이 깨지지 않는다."""
+
+    def setUp(self):
+        tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, tmp, True)
+        for name, value in (("PUBLIC", tmp / "public"), ("BUILD_META", tmp / "build_meta.json")):
+            patcher = patch.object(site, name, value)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+    def test_committed_public_stays_green_on_later_days(self):
+        with patch.object(site, "PUBLIC", site.ROOT / "public"), patch.object(site, "BUILD_META", site.ROOT / "build_meta.json"):
+            built = site.read_build_date()
+            for later in (built, date(2026, 11, 28), date(2026, 12, 9), date(2027, 1, 1)):
+                with self.subTest(today=later):
+                    self.assertEqual(run_main("--check", today=later), (0, f"{built} KST 공개 파일 {len(site.expected_files(built))}개 검증\n"))
+                    self.assertEqual(run_main("--check", "--date", later.isoformat(), today=date(2000, 1, 1))[0], 0)
+
+    def test_build_records_its_date_and_check_uses_it(self):
+        self.assertEqual(run_main(today=FIRST_POST_DAY)[0], 0)
+        self.assertEqual(site.read_build_date(), FIRST_POST_DAY)
+        for later in (date(2026, 11, 28), date(2026, 12, 9)):
+            with self.subTest(today=later):
+                self.assertEqual(run_main("--check", today=later)[0], 0)
+                self.assertEqual(run_main("--check", "--date", later.isoformat(), today=FIRST_POST_DAY)[0], 0)
+        self.assertEqual(run_main("--date", "2026-12-09", today=FIRST_POST_DAY)[0], 0)
+        self.assertEqual(site.read_build_date(), date(2026, 12, 9))
+        self.assertEqual(run_main("--check", today=date(2026, 12, 9))[0], 0)
+
+    def test_public_built_ahead_of_today_fails(self):
+        run_main("--date", "2026-12-09", today=FIRST_POST_DAY)
+        code, output = run_main("--check", today=date(2026, 12, 8))
+        self.assertEqual(code, 1)
+        self.assertIn("2026-12-09", output)
+
+    def test_edited_public_fails(self):
+        run_main(today=FIRST_POST_DAY)
+        (site.PUBLIC / "index.html").write_text("changed", encoding="utf-8")
+        code, output = run_main("--check", today=date(2026, 12, 9))
+        self.assertEqual(code, 1)
+        self.assertIn("생성물 불일치 index.html", output)
+
+    def test_missing_build_meta_explains_how_to_regenerate(self):
+        with self.assertRaises(SystemExit) as raised:
+            run_main("--check", today=FIRST_POST_DAY)
+        self.assertIn("build_site.py", str(raised.exception))
 
 
 if __name__ == "__main__":

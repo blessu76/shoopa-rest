@@ -10,10 +10,14 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
+BUILD_META = ROOT / "build_meta.json"
 sys.path.insert(0, str(ROOT / "vendor"))
 
-from ipe_web_kit import ASSETS, journal, langswitch, languages, seo
-from ipe_web_kit.seo import esc
+try:
+    from ipe_web_kit import ASSETS, journal, langswitch, languages, seo
+    from ipe_web_kit.seo import esc
+except ImportError:
+    sys.exit("ipe_web_kit이 설치되어 있지 않습니다. python3 scripts/kit_lock.py sync --kit <킷 클론> 으로 잠금 파일의 버전을 설치하세요.")
 
 DOMAIN = "shoopa.ipe.rest"
 BASE = f"https://{DOMAIN}"
@@ -259,9 +263,24 @@ def journal_posts():
     return dict(by_date[day] for day in sorted(by_date, reverse=True))
 
 
+def today_kst():
+    return datetime.now(SEOUL).date()
+
+
+def read_build_date():
+    """커밋된 public/ 을 생성한 한국시간 기준 날짜(build_meta.json)."""
+    if not BUILD_META.is_file():
+        raise SystemExit(f"{BUILD_META.name}이 없습니다. python3 scripts/build_site.py 로 public/ 을 다시 생성하세요.")
+    return date.fromisoformat(read_json(BUILD_META)["as_of"])
+
+
+def write_build_date(as_of):
+    BUILD_META.write_text(json.dumps({"as_of": as_of.isoformat()}, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
 def expected_files(as_of=None):
     if as_of is None:
-        as_of = datetime.now(SEOUL).date()
+        as_of = today_kst()
     copies = {lang: read_json(ROOT / "content" / f"{lang}.json") for lang in languages.SUPPORTED}
     posts = journal_posts()
     editions = {slug: post_editions(slug, post) for slug, post in posts.items() if post["date"] <= as_of.isoformat()}
@@ -323,12 +342,24 @@ def expected_files(as_of=None):
     return files
 
 
-def main():
+def main(argv=None):
+    """--date 는 「오늘(한국시간)이 이 날짜라고 보고」 — 기본은 실제 오늘이다.
+    생성: 그 날짜까지 공개될 글로 public/ 을 만들고 그 날짜를 build_meta.json 에 남긴다.
+    검사: build_meta.json 의 날짜로 다시 만들어 public/ 과 비교한다. 그래서 날이 바뀌어도 커밋된 public/ 이 깨지지 않는다.
+          그 날짜가 오늘보다 뒤면(예약 글이 미리 들어간 public/) 실패한다.
+    배포 CI 는 실행 날짜로 새로 생성한 뒤 검사한다."""
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
-    parser.add_argument("--date", type=date.fromisoformat, default=datetime.now(SEOUL).date())
-    args = parser.parse_args()
-    files = expected_files(args.date)
+    parser.add_argument("--date", type=date.fromisoformat)
+    args = parser.parse_args(argv)
+    today = args.date or today_kst()
+    as_of = today
+    if args.check:
+        as_of = read_build_date()
+        if as_of > today:
+            print(f"public/ 이 {as_of} 기준으로 생성되어 오늘({today} KST)보다 뒤입니다. 예약 글이 미리 공개될 수 있습니다.", file=sys.stderr)
+            return 1
+    files = expected_files(as_of)
     stale = {
         path.relative_to(PUBLIC).as_posix()
         for path in PUBLIC.rglob("*") if path.is_file()
@@ -341,6 +372,7 @@ def main():
         for name in sorted(stale):
             print(f"생성물 불일치 {name}", file=sys.stderr)
         if stale:
+            print(f"{as_of} KST 기준 생성물과 public/ 이 다릅니다. python3 scripts/build_site.py 로 다시 생성하세요.", file=sys.stderr)
             return 1
     else:
         for name, data in files.items():
@@ -349,7 +381,8 @@ def main():
             path.write_bytes(data)
         for name in stale:
             (PUBLIC / name).unlink()
-    print(f"{args.date} KST 공개 파일 {len(files)}개 {'검증' if args.check else '생성'}")
+        write_build_date(as_of)
+    print(f"{as_of} KST 공개 파일 {len(files)}개 {'검증' if args.check else '생성'}")
     return 0
 
 
